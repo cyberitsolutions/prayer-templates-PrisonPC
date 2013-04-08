@@ -2,7 +2,4 @@
 %
     </div>
   </div>
-  <ul id="site-info">
-    <li class="copy">&copy; 2008 Computing Service, University of Cambridge</li>
-  </ul>
 </div>

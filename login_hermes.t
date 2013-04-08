@@ -151,8 +151,5 @@ href="#skip-content" accesskey="2">Skip to content</a> </div>
 <% ${login_insert1} |n %>
 % ENDIF
 </div>
-  <ul id="site-info">
-    <li class="copy">&copy; 2008 Computing Service, University of Cambridge</li>
-</ul>
 </div>
 </body></html>

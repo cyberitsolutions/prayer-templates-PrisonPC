@@ -60,8 +60,8 @@ div#navtabs .compose_toolbar_right {
 
 .compose_toolbar_left input, .compose_toolbar_right input {
   border:none; 
-  background: #d3d3b1; 
-  border-right: #99cc99 1px solid; 
+  background: #e5f2ff; 
+  border-right: #3191ea 1px solid; 
   color: #336; 
   font-size: 90%; 
   padding:1px 9px 4px 9px;
@@ -72,7 +72,7 @@ div#navtabs .compose_toolbar_right {
 }
 
 .compose_toolbar_left input.active, .compose_toolbar_right input.active {
-  background:#9c9;
+  background:#3191ea;
   border: none;
 }
 
@@ -146,7 +146,7 @@ td.right {
 /* Full width table with alternate striped lines */
 table.altrows { width: 100%; line-height: 1.5em; }
 table.altrows td {padding: 0 1em 0 0; }
-table.altrows tr.t_even_row { background: #CFC; }
+table.altrows tr.t_even_row { background: #e5f2ff; }
 
 /* Modifier for altrows which suppresses line wrap, truncates instead */
 table.truncate {

@@ -18,13 +18,13 @@
 form.default-form fieldset {	
 	margin: 1em 0 0 0;
 	padding: 0;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #3191ea;
 }
 
 form.lookup fieldset {	
 	margin: 1em 0;
 	padding: 0;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #3191ea;
 	}
 
 form.default-form fieldset.actions {
@@ -53,7 +53,7 @@ form.default-form div {
 	float: left;
 	list-style-type: none;
 	padding: 0.5em 0 0.5em 0;
-	border-top: 1px solid #EEE;
+	border-top: 1px solid #3191ea;
 }
 
 form.lookup div {
@@ -62,8 +62,8 @@ form.lookup div {
 	float: left;
 	list-style-type: none;
 	padding: 0.5em 0 0.5em 0;
-	border-top: 1px solid #EEE;
-	background: #f8f4e9;
+	border-top: 1px solid #3191ea;
+	background: #e5f2ff;
 }
 
 form.default-form div div {
@@ -73,7 +73,7 @@ form.default-form div div {
 }
 
 form.default-form div.alt {
-	background: #f8f4e9;
+	background: #e5f2ff;
 }
 
 form.default-form label {

@@ -1,0 +1,4 @@
+ppc.so            /usr/lib/prayer/templates/
+ppc_frontend.so   /usr/lib/prayer/templates/
+
+static/           /usr/share/prayer/

@@ -32,7 +32,7 @@ div#dept-title h1 {
 	font-size: 1.4em;
 	font-weight:normal;
 	color: #000;
-	background: #9c9;
+	background: #3191ea;
 }
 
 div#dept-title h1 a {
@@ -49,7 +49,7 @@ div#dept-title h2 {
 	font-size: 1.1em;
 	font-weight:normal;
 	color: #000;
-	background: #9c9;
+	background: #3191ea;
 }
 
 /*for use with the optional global tabbed navigation bar*/
@@ -71,9 +71,9 @@ div#navtabs a {
 */
 	color: #336; 
 	text-decoration: none; 
-	background-color:#d3d3b1; 
+	background-color:#e5f2ff; 
 	padding:4px 10px 4px 10px; 
-	border-right: 1px solid #9c9; 
+	border-right: 1px solid #3191ea; 
 }
 div#navtabs a:hover { 
 	display: block; 
@@ -83,11 +83,11 @@ div#navtabs a:hover {
 	background-color: #EDEEEC; 
 }
 div#navtabs a.first {
-	border-left: 1px solid #9c9; 
-	border-right: 1px solid #9c9; 
+	border-left: 1px solid #3191ea; 
+	border-right: 1px solid #3191ea; 
 }
 div#navtabs a.current { 
-	background-color: #9c9; 
+	background-color: #3191ea; 
 }
 /* Commented backslash hack hides rule from IE5-Mac \*/	
 div#navtabs li a { float: none }

@@ -152,8 +152,8 @@ sub {
 }
 
 blockquote { 
-	background: #f8f4e9;
-	border:1px solid #ddd;
+	background: #e5f2ff;
+	border:1px solid #3191ea;
 	padding: 1em 1em 0.5em 1em;
 	font-style: italic;
 	font-size: 1em;
@@ -199,8 +199,8 @@ em {
 }
 
 pre {
-	background: #f8f4e9;
-	border:1px solid #ddd;
+	background: #e5f2ff;
+	border:1px solid #3191ea;
 	padding: 1em;
 	margin: 0 0 1em 0;
 	font-family: Monaco, monospace;
@@ -219,15 +219,15 @@ code {
 table.data {
 	width: auto;
 	margin: 0 0 1em 0;
-	border-top:1px solid #ddd;
-	border-left:1px solid #ddd;
+	border-top:1px solid #3191ea;
+	border-left:1px solid #3191ea;
 	width: 695px;
 }
 
 table.data th, table.data td {
 	padding: 0.3em 0.4em 0.2em 0.4em;
-	border-bottom:1px solid #ddd;
-	border-right:1px solid #ddd;
+	border-bottom:1px solid #3191ea;
+	border-right:1px solid #3191ea;
 }
 
 table.data td.heading {

@@ -1,4 +1,4 @@
-/* $Cambridge: hermes/src/prayer/files/static/layout.css,v 1.2 2008/09/16 09:59:56 dpc22 Exp $ */
+/* $cambridge: hermes/src/prayer/files/static/layout.css,v 1.2 2008/09/16 09:59:56 dpc22 Exp $ */
 /* -------------------------------------------------------------- 
   
    CSS Framework
@@ -23,8 +23,11 @@
 
 body {
 	/* background: #EEE; */
-	background: #699;
+/*	background: #699; */
 	padding: 0 20px 0 20px;
+	color:#555;
+	background:url(/static/main_bg.jpg) bottom right repeat-y;
+	background-attachment: fixed;
 }
 
 div#skip {
@@ -38,9 +41,9 @@ div#container {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0 20px 0 20px;
-	border-left: 1px solid #d3d3b1;
-	border-right: 1px solid #d3d3b1;
-	border-bottom: 1px solid #d3d3b1;
+	border-left: 1px solid #3191ea;
+	border-right: 1px solid #3191ea;
+	border-bottom: 1px solid #3191ea;
 }
 
 img.ucam {
@@ -49,27 +52,27 @@ img.ucam {
 
 /*hvs 14.4*/
 div#dept-title {
-	background: #9c9;
+	background: #3191ea;
 	min-width: 694px;
 	max-width: 1214px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0 20px 0 20px;
-	border-left: 1px solid #d3d3b1;
-	border-right: 1px solid #d3d3b1;
-	border-bottom: 1px solid #d3d3b1;
+	border-left: 1px solid #3191ea;
+	border-right: 1px solid #3191ea;
+	border-bottom: 1px solid #3191ea;
 }
 
 div#navtabs {
-	background: #d3d3b1;
+	background: #e5f2ff;
 	min-width: 694px;
 	max-width: 1214px;
 	line-height: 1em;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0 20px 0 20px;
-	border-left: 1px solid #d3d3b1;
-	border-right: 1px solid #d3d3b1;
+	border-left: 1px solid #3191ea;
+	border-right: 1px solid #3191ea;
 }
 
 div#header {
@@ -82,12 +85,12 @@ div#header {
 	max-width: 1254px;
 
 	/*border-bottom: 1px solid #cdc5bc;*/
-	border-left: 1px solid #d3d3b1;
-	border-right: 1px solid #d3d3b1;
+	border-left: 1px solid #3191ea;
+	border-right: 1px solid #3191ea;
 }
 
 .dept div#header {
-	border-bottom: 1px solid #9c9;
+	border-bottom: 1px solid #3191ea;
 	}
 
 div#branding {
@@ -432,7 +435,7 @@ ul#site-info {
 	clear: both;
 	width: 100%;
 	list-style-type: none;
-	border-top: 2px solid #9c9;
+	border-top: 2px solid #3191ea;
 	padding-top: 1em;
 	padding-bottom: 2em; 
 	font-size: 0.7em;

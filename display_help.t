@@ -3,7 +3,7 @@
 
 <p>By default you will see two instances of the bar, as in the example
 above.  You can choose to turn off the bar below the message (or indeed
-the use of any icons in the Webmail interface) using options found in
+the use of any icons in the Email interface) using options found in
 <i>Manage -&gt; Preferences -&gt; Display</i>.  </p>
 
 <table style="width: 100%">
@@ -59,7 +59,7 @@ the use of any icons in the Webmail interface) using options found in
 <tr>
  <td valign="top"><i>Download Message</i></td>
  <td> this presents the entire message, including all the 
-      message headers, in a plain form (i.e. without the Webmail icons 
+      message headers, in a plain form (i.e. without the Email icons 
       and actions) suitable for printing or saving to 
       your local system using your browser's printing and saving
       facilities.</td>

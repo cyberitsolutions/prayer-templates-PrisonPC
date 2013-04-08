@@ -97,7 +97,7 @@ These are described at the bottom of this page.</p>
          </tr></table>
          </li>
   <li><i>Cancel</i> - cancels the message and returns you to the
-         Webmail page you came from.
+         Email page you came from.
       The status line will change to reflect the action:-
         <table><tr class="t_status">
         <td align="left"><b>Status:</b>Draft message cancelled</td>
@@ -106,7 +106,7 @@ These are described at the bottom of this page.</p>
   <li><i>Postpone</i> - the draft is saved to the mail
        folder defined to hold these messages
        (default <i>postponed-messages</i>)
-      and you are returned to the Webmail page you came from.
+      and you are returned to the Email page you came from.
       The status line will change to reflect the action:-
        <table><tr class="t_status">
        <td align="left"><b>Status:</b>Draft message postponed</td>
@@ -115,7 +115,7 @@ These are described at the bottom of this page.</p>
       you select <i>Compose</i> you get the option to continue with a 
       postponed message or start a new one.</li>
   <li><i>Send</i> - triggers an immediate send and returns
-      you to the Webmail page you came from.</li>
+      you to the Email page you came from.</li>
   <li><i>Save copy</i> - This check box controls
       whether a copy is automatically saved.  The default for this,
       saving a copy to <i>sent-mail</i>, is set in 

@@ -3,7 +3,7 @@
 % CALL header
 % CALL container_start
 <h2 style="text-align: center">
-Confirm logout from <% $g_service_name |h %> Webmail Service</h2>
+Confirm logout from <% $g_service_name |h %> Email Service</h2>
 <div class="confirm">
 <ul>
 <li><a href="<% $cancel |s %>">Cancel</a></li>

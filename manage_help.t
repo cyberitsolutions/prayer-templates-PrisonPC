@@ -2,7 +2,7 @@
 <hr class="helpsep" />
 
 <p>From here you can access screens that let you configure various 
-   aspects of the Webmail system either for the current session or
+   aspects of the Email system either for the current session or
    for every future session.  These include preferences that affect
    aspects of the appearance of the system,  account management (e.g.
    changing your password), mail processing (e.g. setting a vacation
@@ -15,7 +15,7 @@
 own specific help page.  The categories are:-</p> 
 
 <ul>
-<li>Webmail Preferences, covering:
+<li>Email Preferences, covering:
   <ul>
     <li>User Preferences:
       <ul>

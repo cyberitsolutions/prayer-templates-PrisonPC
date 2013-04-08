@@ -5,7 +5,7 @@
 using your registered name.  Your registered name consists of your
 initials and surname, as this is the information that is kept in the
 Computing Service's database.   This is also used to set an initial
-default on another name field (in the Webmail system this is
+default on another name field (in the Email system this is
 called your <i>Fullname</i>).
 Enquiries about your account will show both names.
 It is not possible to change the registered name, but many people like to 
@@ -15,8 +15,8 @@ This is the purpose of this, <i>Change Fullname</i>, option. </p>
 <p><b>Note:</b> <i>Fullname</i> is also, by default, the name that
 appears in the <i>From:</i> field of an email.   It is possible to have
 one name returned by an enquiry to your account, and another name used
-on outgoing messages from Webmail.  If you wish to do this you will
-also need to set your Webmail <i>Personal Name</i>  in 
+on outgoing messages from Email.  If you wish to do this you will
+also need to set your Email <i>Personal Name</i>  in 
 <i>Manage -&gt; Preferences -&gt; Compose</i>.</p>
 
 <p>When you enter the screen a check is made against <% $g_service_name |h %>

@@ -24,7 +24,7 @@ return you to the addressbook screen.</p>
 <p><i>Search <% $g_service_name |h %> Users</i> searches for local users on the
 <% $g_service_name |h %> system. The search is made against the initial registered name
 of each user (of the form &quot;A.N. Other&quot;) and also against the
-fullname which can be set using this Webmail interface.  Please note: the
+fullname which can be set using this Email interface.  Please note: the
 local search database only stores limited numbers of results. Queries that
 would return large numbers of results (e.g: Smith) will typically return no
 results and an explanation to this effect. It is also possible to search

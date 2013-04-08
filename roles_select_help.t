@@ -12,4 +12,4 @@ of your defined roles.</p>
 <p>Once you have chosen the role and selected the correct entry you will
 enter the main <i>Compose</i> screen.</p>
 
-<p><i>Cancel</i>  returns you to the Webmail page you came from.</p>
+<p><i>Cancel</i>  returns you to the Email page you came from.</p>

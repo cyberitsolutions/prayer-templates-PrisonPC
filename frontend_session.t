@@ -2,7 +2,7 @@
 %#
 % CALL header
 % CALL container_start
-<h3>Couldn't connect to Webmail session server</h3>
+<h3>Couldn't connect to Email session server</h3>
 
 <p><a href="<% $url_prefix |n %>/login/<% $user |u %>">\
 Try again</a> later</p>

@@ -10,9 +10,9 @@ lang="en">
 
 <!-- change title and metadata for each page here -->
 % IFDEF $g_service_name
-<title><% $g_service_name |h %> Webmail Service</title>
+<title><% $g_service_name |h %> Email Service</title>
 % ELSE
-<title>Prayer Webmail Service</title>
+<title>Prayer Email Service</title>
 % ENDIF
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -74,9 +74,9 @@ href="#skip-content" accesskey="2">Skip to content</a> </div>
 <h1><% $login_banner |h %></h1>
 % ELSE
 %   IFDEF $service_name
-<h1><% $service_name |h %> Webmail Service</h1>
+<h1><% $service_name |h %> Email Service</h1>
 %   ELSE
-<h1>Prayer Webmail Service</h1>
+<h1>Prayer Email Service</h1>
 %   ENDIF
 % ENDIF
 </div>
@@ -137,7 +137,7 @@ href="#skip-content" accesskey="2">Skip to content</a> </div>
 <dl class="menu" style="width:100%">
 <dt>Help:</dt>
 <dd><a href="http://www.cam.ac.uk/cs/docs/infosheets/is41/">
-    Introduction to Webmail</a></dd>
+    Introduction to Email</a></dd>
 <dd><a href="http://www.cam.ac.uk/cs/docs/email.html">
     Information and documentation on Email and Hermes</a></dd>
 <dd><a href="http://www.cam.ac.uk/cs/email/muasettings.html">

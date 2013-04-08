@@ -7,7 +7,7 @@ into a nominated folder. If this is the first time you have used this then
 on entry the screen will look like:-</p>
 
 <p>If you have filters in place that have been created either using
-the Webmail system or using the standard configuration options from the
+the Email system or using the standard configuration options from the
 menu interface on <% $g_service_name |h %> then when you enter
 this screen they will be listed, as in the example below.</p>
 

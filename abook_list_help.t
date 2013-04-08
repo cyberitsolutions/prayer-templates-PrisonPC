@@ -19,7 +19,7 @@ or use just that entry.</li>
 <p><i>Search <% $g_service_name |h %> Users</i> searches for local users on the
 <% $g_service_name |h %> system. The search is made against the initial registered name
 of each user (of the form &quot;A.N. Other&quot;) and also against the
-fullname which can be set using this Webmail interface.  Please note: the
+fullname which can be set using this Email interface.  Please note: the
 local search database only stores limited numbers of results. Queries that
 would return large numbers of results (e.g: Smith) will typically return no
 results and an explanation to this effect. It is also possible to search
@@ -92,12 +92,12 @@ tagged in the main section.</p>
 <p><i>Transfer</i> takes you to a screen from which you can</p>
 <ul>
  <li> import a Pine-format addressbook on your local system 
-      into your Webmail addressbook,</li>
- <li> export your Webmail addressbook to a Pine-format addressbook 
+      into your Email addressbook,</li>
+ <li> export your Email addressbook to a Pine-format addressbook 
       on your local system,</li>
  <li> import your Pine addressbook on <% $g_service_name |h %> into your
-      Webmail addressbook </li>
- <li> export your Webmail addressbook for use with Pine on <% $g_service_name |h %>.</li>
+      Email addressbook </li>
+ <li> export your Email addressbook for use with Pine on <% $g_service_name |h %>.</li>
 </ul>
 
 <p>
@@ -113,7 +113,7 @@ in when you selected <i>Addressbook</i>.</p>
 
 <ul>
 <li>If you select <i>Addressbook</i> from the majority of screens in 
-Webmail, an individual entry will look like this:
+Email, an individual entry will look like this:
  <form action="<% action_stub |s %>">
  <table>
  <tr class="t_odd_row">

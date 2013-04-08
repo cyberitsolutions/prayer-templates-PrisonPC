@@ -5,15 +5,15 @@
 % CALL container_start
 % CALL status
 % IFDEF $g_service_name
-<h2 style="text-align: center">Welcome to the <% $g_service_name |h %> Webmail Service
+<h2 style="text-align: center">Welcome to the <% $g_service_name |h %> Email Service
 % ELSE
-<h2 style="text-align: center">Welcome to the Prayer Webmail Service
+<h2 style="text-align: center">Welcome to the Prayer Email Service
 % ENDIF
 </h2>
-<p>Please read some important hints about use of this Webmail service.</p>
-<h3>Use the navigation icons on the Webmail interface</h3>
+<p>Please read some important hints about use of this Email service.</p>
+<h3>Use the navigation icons on the Email interface</h3>
 <p>The browser navigation buttons will not work reliably.</p>
-<h3>Always log out from the Webmail system when you have finished.</h3>
+<h3>Always log out from the Email system when you have finished.</h3>
 
 <ul>
  <li>If you fail to do this, people with access to the computer that you

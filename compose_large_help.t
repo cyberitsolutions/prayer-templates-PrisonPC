@@ -1,7 +1,7 @@
 %# $Cambridge: hermes/src/prayer/templates/cam/compose_large_help.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
 <hr class="helpsep" />
 
-<p>Note that in this Webmail screen the main toolbar is not visible,
+<p>Note that in this Email screen the main toolbar is not visible,
 so the <i>Help</i> and <i>Logout</i> buttons are included as part of
 this page.</p>
 
@@ -35,7 +35,7 @@ this page.</p>
          </tr></table>
          </li>
    <li><i>Cancel</i> - cancels the message and returns you to the
-        Webmail page you came from when you originally chose 
+        Email page you came from when you originally chose 
         <i>Compose</i>.  The status line will change to reflect the action:-
         <table><tr class="t_status">
         <td align="left"><b>Status:</b>Draft message cancelled</td>
@@ -43,7 +43,7 @@ this page.</p>
         </li>
    <li><i>Postpone</i> - the draft is saved to the mail folder defined 
        to hold these messages (default <i>postponed-messages</i>)
-       and you are returned to the Webmail page you came from when 
+       and you are returned to the Email page you came from when 
        you originally chose <i>Compose</i>.
        The status line will change to reflect the action:-
        <table><tr class="t_status">
@@ -53,7 +53,7 @@ this page.</p>
        you select <i>Compose</i> you get the option to continue with 
        the postponed message or start a new one.</li>
    <li><i>Send</i> - triggers an immediate send and returns
-      you to the Webmail page you came from when
+      you to the Email page you came from when
        you originally chose <i>Compose</i>.</li>
   <li><i>Save copy</i> - This check box controls
       whether a copy is automatically saved.  The default for this 

@@ -8,7 +8,7 @@
     <p class="section">Account management</p>
 </div>
 <ul style="margin: 1em 0 0 1em;">
-  <li>Webmail Preferences
+  <li>Email Preferences
     <ul>
       <li><a href="<% prefs |s %>">Preferences</a></li>
       <li><a href="<% dictionary |s %>">Personal dictionary</a></li>

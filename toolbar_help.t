@@ -7,8 +7,8 @@
 Click here to hide help text about main toolbar</a></li>
 </ul>
 <hr class="helpsep" />
-<p>The common toolbar appears at the top of most Webmail pages and provides 
-shortcuts to the main Webmail functions. </p> 
+<p>The common toolbar appears at the top of most Email pages and provides 
+shortcuts to the main Email functions. </p> 
 
 <table>
 <tr>
@@ -74,8 +74,8 @@ shortcuts to the main Webmail functions. </p>
 </td>
 <td>Selecting this leads you to the main addressbook listing screen  
     where you can edit, delete and add entries.  You can also 
-    import your <% $g_service_name |h %> addressbook into the Webmail addressbook or
-    export your Webmail addressbook for use in Pine on <% $g_service_name |h %>.</td>
+    import your <% $g_service_name |h %> addressbook into the Email addressbook or
+    export your Email addressbook for use in Pine on <% $g_service_name |h %>.</td>
 </tr>
 <tr>
 <td valign="top">
@@ -84,7 +84,7 @@ shortcuts to the main Webmail functions. </p>
   </table>
 </td>
 <td>Selecting this leads to screens that let you configure various 
-   aspects of the Webmail system either for the current session or
+   aspects of the Email system either for the current session or
    for every future session.  These include preferences that affect
    the appearance of the system,  account management (e.g.
    changing your password), mail processing (e.g. setting a vacation
@@ -139,7 +139,7 @@ shortcuts to the main Webmail functions. </p>
   <tr><td align="center" valign="top">Help</td></tr>
   </table>
 </td>
-<td>The Webmail system has specific help pages for each screen rather
+<td>The Email system has specific help pages for each screen rather
     than an overall globally available system.  Selecting
     this icon on any screen takes you to the help text relevant to
     that screen.  When you are looking at a help text page this icon 
@@ -156,7 +156,7 @@ shortcuts to the main Webmail functions. </p>
   <tr><td align="center" valign="top">Logout</td></tr>
   </table>
 </td>
-<td>Selecting this will log you out of the Webmail system.  Please
+<td>Selecting this will log you out of the Email system.  Please
     remember to use this to log out when you have finished a session
     rather than just leaving your session idle.</td>
 </tr>

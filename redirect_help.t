@@ -8,7 +8,7 @@ the two check boxes will be unmarked and the address field
 will be empty.</p>
 
 <p>If you have a manually maintained <tt>.forward</tt> file this cannot
-be updated from the Webmail interface.  In this case the you will not 
+be updated from the Email interface.  In this case the you will not 
 see the form but a message reading</p>
 <blockquote>
 <div>

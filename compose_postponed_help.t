@@ -12,7 +12,7 @@ and you have a postponed (unsent) message.</p>
      page, with the message presented for further editing.</li>
 <li> To start a new message instead, select the <i>Compose a fresh message</i> 
      button.</li>
-<li> The <i>Cancel</i> button returns you to the Webmail page from
+<li> The <i>Cancel</i> button returns you to the Email page from
       whence you came.  The contents of the postponed mail folder
      are unchanged.</li>
 <li>If you wish to remove a postponed message you need to select it

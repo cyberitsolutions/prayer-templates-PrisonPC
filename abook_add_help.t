@@ -8,7 +8,7 @@
 the <i>Add entry</i> or <i>Add/Update entry</i> button as 
 relevant; </li>
 <li>To delete an entry select the <i>Delete entry</i> button;</li>
-<li>To return to the Webmail screen from whence you came, making no
+<li>To return to the Email screen from whence you came, making no
 changes to your address book, select the <i>Cancel</i> button</li>
 </ul>
 

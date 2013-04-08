@@ -5,9 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 % IFDEF $g_service_name
-<title><% $g_service_name |h %> Webmail Service</title>
+<title><% $g_service_name |h %> Email Service</title>
 % ELSE
-<title>Prayer Webmail Service</title>
+<title>Prayer Email Service</title>
 % ENDIF
 <meta name="robots" content="none" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

@@ -24,9 +24,9 @@ Change to:
 
 <div id="dept-title">
 % IFDEF $g_service_name
-<h1><% $g_service_name |h %> webmail service</h1>
+<h1><% $g_service_name |h %> Email Service</h1>
 % ELSE
-<h1>Prayer webmail service</h1>
+<h1>Prayer Email Service</h1>
 % ENDIF
 </div>
 

@@ -4,7 +4,7 @@
 <ul>
 <li><i>Template Set</i> defines the look and feel of the application</li>
 <li><i>Enable welcome screen</i> controls whether or not the initial
-     screen "Welcome to the Webmail Service" is displayed when you
+     screen "Welcome to the Email Service" is displayed when you
      log in.</li>
 % IFDEF $raven_enable
 <li><i>Allow Raven Logins</i> - most people will want to leave this
@@ -20,7 +20,7 @@
 <li><i>Expunge deleted messages from INBOX on logout</i> -
     automatically expunges messages when enabled</li>
 <li><i>Use persistent marks</i>  - 
-The Webmail default is to use non-persistent marks.  This means 
+The Email default is to use non-persistent marks.  This means 
 that while you can mark more than one message on a screen you must
 take action on the marked messages, for example copying them all
 to a folder, before you move to another screen.
@@ -28,7 +28,7 @@ If you change to another screen, for example listing the next screenful of
 messages, the marks are not retained.  
 <br />
 If you enable <i>Use persistent marks</i> then each time you mark a 
-message a connection is made to the Webmail server.
+message a connection is made to the Email server.
 Because of this interaction with the server working with
 persistent marks is slower and  
 is only recommended if you are working over a fast connection,

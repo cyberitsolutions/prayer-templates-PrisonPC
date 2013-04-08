@@ -6,7 +6,7 @@ wish to blacklist. Any addresses sent from these addresses will be silently
 discarded.</p>
 
 <p>If you have blocks in place that have been created either using
-the Webmail system or using the standard configuration options from the
+the Email system or using the standard configuration options from the
 menu interface on <% $g_service_name |h %> then when you enter
 this screen they will be listed, as in the example below.</p>
 

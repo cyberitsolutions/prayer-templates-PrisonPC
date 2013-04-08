@@ -11,11 +11,11 @@
 % ENDIF
 <meta name="robots" content="none" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" href="/static/layout.css"
+<link rel="stylesheet" href="/static/ppclayout.css"
       type="text/css" media="all" />
 <link rel="stylesheet" href="/static/print.css"
       type="text/css" media="print" />
-<link rel="stylesheet" href="/static/camstyle.css"
+<link rel="stylesheet" href="/static/ppcstyle.css"
       type="text/css" media="all" />
 <link rel="icon" type="image/png"  href="/icons/msg-seen.png" />
 

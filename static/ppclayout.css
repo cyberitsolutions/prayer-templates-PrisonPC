@@ -13,9 +13,9 @@
 -------------------------------------------------------------- */
 
 @import "reset.css";
-@import "content.css";
-@import "typography.css";
-@import "forms.css";
+@import "ppccontent.css";
+@import "ppctypography.css";
+@import "ppcforms.css";
 
 
 /* =MAIN-CONTAINER-ELEMENTS

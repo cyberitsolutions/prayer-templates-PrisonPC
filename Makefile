@@ -20,7 +20,10 @@ NAME = ppc
 endif
 
 CPPFLAGS = -I/usr/include/prayer
+# Hack to get i686 builds for Marngoneet
 CFLAGS += -fPIC
+#CFLAGS += -fPIC -march=i686 -m32
+#LDFLAGS_TEMPLATELIB = -shared -fPIC -march=i686 -m32 \ 
 LDFLAGS_TEMPLATELIB = -shared -fPIC \
 	-Wl,--defsym=template_map=template_map_$(NAME) \
 	-Wl,--defsym=template_map_count=template_map_$(NAME)_count

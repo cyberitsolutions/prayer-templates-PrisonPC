@@ -2,12 +2,12 @@ include /usr/share/prayer/config.make
 
 TEMPLATES = abook_add abook_list abook_lookup abook_search abook_take \
   abook_transfer abook_update action_stub attachments block block_fail \
-  compose compose_postponed copy dictionary display display_tail \
-  download_xfer_error error expunge favourites filter filter_fail \
-  filter_select folders fullname include list logout logout_raven \
-  manage passwd prefs_compose prefs_compose2 prefs_display prefs_folder \
-  prefs_general printable printable_tail quota raven_blocked redirect \
-  redirect_fail rename reply restart rm roles_entry roles_list \
+  compose compose_postponed copy dictionary display display_images \
+  display_mime display_tail download_xfer_error error expunge favourites \
+  filter filter_fail filter_select folders fullname include list logout \
+  logout_raven manage passwd prefs_compose prefs_compose2 prefs_display \
+  prefs_folder prefs_general printable printable_tail quota raven_blocked \
+  redirect redirect_fail rename reply restart rm roles_entry roles_list \
   roles_select sieve sieve_error sieve_error_tail sieve_fail sizes spam \
   spam_fail spell transfer upload_select vacation vacation_fail vaclog \
   vaclog_fail welcome

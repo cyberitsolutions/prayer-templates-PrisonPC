@@ -1,3 +1,4 @@
+include /usr/share/prayer/config.make
 
 # TEMPLATES = abook_add abook_list abook_lookup abook_search abook_take \
 #   abook_transfer abook_update action_stub attachments block block_fail \

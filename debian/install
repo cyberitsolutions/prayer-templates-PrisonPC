@@ -1,5 +1,3 @@
-ppc.so            /usr/lib/prayer/templates/
-ppc_frontend.so   /usr/lib/prayer/templates/
-
+*.so                /usr/lib/prayer/templates/
 static/ppc*.css     /usr/share/prayer/static/
 static/main_bg.jpg  /usr/share/prayer/static/

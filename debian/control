@@ -1,15 +1,16 @@
 Source: prayer-templates-ppc
-Section: unknown
+Section: mail
 Priority: extra
 Maintainer: Mike Fabre <mikef@cyber.com.au>
-Build-Depends: debhelper (>= 8.0.0), prayer-templates-dev
-Standards-Version: 3.9.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/prayer-templates-ppc.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/prayer-templates-ppc.git;a=summary
+Uploaders:
+ Trent W. Buck <twb@cyber.com.au>,
+ Trent W. Buck <trentbuck@gmail.com>
+Build-Depends: debhelper (>= 7), prayer-templates-dev
+Standards-Version: 3.9.4
 
 Package: prayer-templates-ppc
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: prayer
 Description: PrisonPC prayer template
-  This is the PrisonPC branded theme for the Prayer webmail interface
+ This is the PrisonPC branded theme for the Prayer webmail interface

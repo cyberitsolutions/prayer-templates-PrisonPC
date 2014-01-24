@@ -1,16 +1,26 @@
-Source: prayer-templates-ppc
+Source: prayer-templates-prisonpc
 Section: mail
-Priority: extra
+Priority: optional
 Maintainer: Mike Fabre <mikef@cyber.com.au>
 Uploaders:
  Trent W. Buck <twb@cyber.com.au>,
  Trent W. Buck <trentbuck@gmail.com>
-Build-Depends: debhelper (>= 7), prayer-templates-dev
-Standards-Version: 3.9.4
+# FIXME: switch to debhelper compat level 9 to avoid these:
+# prayer-templates-prisonpc: hardening-no-relro usr/lib/prayer/templates/ppc.so
+# prayer-templates-prisonpc: hardening-no-relro usr/lib/prayer/templates/ppc_frontend.so
+Build-Depends:
+ debhelper (>= 7),
+ prayer-templates-dev
+Standards-Version: 3.9.5
 
-Package: prayer-templates-ppc
+Package: prayer-templates-prisonpc
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: prayer
-Description: PrisonPC prayer template
- This is the PrisonPC branded theme for the Prayer webmail interface
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ prayer
+Enhances: prayer
+Description: PrisonPC prayer theme
+ Prayer is yet another Webmail interface.
+ .
+ This package contains a PrisonPC-branded theme for Prayer.

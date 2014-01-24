@@ -1,5 +1,5 @@
-prayer-templates-ppc (1) unstable; urgency=low
+prayer-templates-prisonpc (0.1wheezy1) testing; urgency=low
 
-  * Initial import.
+  * Initial release.
 
- -- Mike Fabre <mikef@cyber.com.au>  Fri, 05 Apr 2013 10:35:36 +1100
+ -- Trent W. Buck <trentbuck@gmail.com>  Fri, 24 Jan 2014 20:42:39 +1100

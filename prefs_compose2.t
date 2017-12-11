@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/prefs_compose2.t,v 1.4 2008/09/29 07:31:55 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/prefs_compose2.t,v 1.5 2010/11/01 10:57:05 dpc22 Exp $
 %#
 % CALL header
 % CALL toolbar
@@ -81,7 +81,7 @@
 <td><input name="large_rows"
            value="<% $large_rows |h %>" size="3" />rows</td>
 </tr>
-% IFDEF $domains[0]
+% IFDEF $domains[1]
 <tr><td>Default domain:</td>
 <td><select name="default_domain" size="1">
 %   FOREACH $d @domains

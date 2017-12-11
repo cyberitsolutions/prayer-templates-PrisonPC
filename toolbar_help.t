@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/toolbar_help.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/toolbar_help.t,v 1.2 2010/11/01 10:57:05 dpc22 Exp $
 <hr class="helpsep" />
 <h2 style="text-align: center">Help Text</h2>
 <ul>
@@ -85,10 +85,15 @@ shortcuts to the main Webmail functions. </p>
 </td>
 <td>Selecting this leads to screens that let you configure various 
    aspects of the Webmail system either for the current session or
-   for every future session.  These include preferences that affect
-   the appearance of the system,  account management (e.g.
-   changing your password), mail processing (e.g. setting a vacation
-   message) and defining a personal dictionary.</td>
+   for every future session.
+% IFDEF $accountd_server
+   These include preferences that affect the appearance of the system,
+   account management (e.g.  changing your password), mail processing
+   (e.g. setting a vacation message)
+% ELSE
+   These include preferences that affect the appearance of the system
+% ENDIF
+   and defining a personal dictionary.</td>
 </tr>
 </table>
 

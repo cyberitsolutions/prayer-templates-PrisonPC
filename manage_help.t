@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/manage_help.t,v 1.2 2008/09/17 16:15:53 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/manage_help.t,v 1.3 2010/11/01 10:57:05 dpc22 Exp $
 <hr class="helpsep" />
 
 <p>From here you can access screens that let you configure various 
@@ -42,6 +42,7 @@ own specific help page.  The categories are:-</p>
   </ul> 
 </li>
 
+% IFDEF $accountd_server
 <li>Account Management, covering:
      <ul> 
      <li><i>Change Password</i></li> 
@@ -59,4 +60,6 @@ own specific help page.  The categories are:-</p>
      <li><i>Advanced</i> Mail filtering, if available on this account</li>
      </ul>
 </li>
+% ENDIF
 </ul>
+

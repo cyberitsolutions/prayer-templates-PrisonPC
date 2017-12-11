@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/compose.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/compose.t,v 1.2 2010/07/02 16:14:30 dpc22 Exp $
 %#
 % CALL header
 <form method="post" accept-charset="UTF-8"
@@ -18,8 +18,7 @@
 %   CALL compose_small_top
 <div>
 <textarea name="body" cols="<% $small_cols |h %>"
- rows="<% $small_rows |h %>"><% $body |h %>
-</textarea>
+ rows="<% $small_rows |h %>"><% $body |h %></textarea>
 </div>
 % ENDIF
 <table cellspacing="0" cellpadding="0"><tr>

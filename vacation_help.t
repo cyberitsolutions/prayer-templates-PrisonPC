@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/vacation_help.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/vacation_help.t,v 1.2 2010/07/02 08:31:08 dpc22 Exp $
 <hr class="helpsep" />
 
 <p>Using this option you can set a message that is automatically sent to
@@ -16,12 +16,20 @@ In this case the you will not see the form but a status message
 reading</p>
 <blockquote>
 <div>
-<b>Error:</b> Manually maintained .forward file? 
+<b>Error:</b> Manually maintained Sieve file? 
 </div>
 </blockquote>
 <p> To make changes to a manually maintained file you will need to connect
 to <% $g_service_name |h %> using an SSH or Telnet client and use the menu interface.
 </p>
+
+<h3>Frequency</h3>
+
+<p>Once a vacation message has been sent, no further vacation messages will
+be sent to the address in question until the given number of days have
+passed. Please note: This is true even if one vacation message is cleared
+and a new vacation message is set up. This option does not automatically
+clear your vacation message after the given number of days.</p>
 
 <h3>Aliases</h3>
 
@@ -36,13 +44,9 @@ of additional email addresses which will trigger vacation messages in this
 way.  This is normally used in conjunction with "friendly" email address
 associated with an institution.</p>
 
-<h3>Interval</h3>
+<h3>Subject</h3>
 
-<p>Once a vacation message has been sent, no further vacation messages will
-be sent to the address in question until the given number of days have
-passed. Please note: This is true even if one vacation message is cleared
-and a new vacation message is set up. This option does not automatically
-clear your vacation message after the given number of days.</p>
+<p>The subject line of messages which are sent out</p>
 
 <h3>Setting up a vacation message</h3>
 

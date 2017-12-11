@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/login_hermes.t,v 1.7 2009/01/13 15:30:26 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/login_hermes.t,v 1.8 2010/07/07 15:25:11 fanf2 Exp $
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
 lang="en">
@@ -130,6 +130,9 @@ href="#skip-content" accesskey="2">Skip to content</a> </div>
 </div>
 </fieldset>
 </form>
+% IFDEF $login_insert2
+<% ${login_insert2} |n %>
+% ENDIF
 % IFDEF $motd
 <% ${motd} |n %>
 % ENDIF

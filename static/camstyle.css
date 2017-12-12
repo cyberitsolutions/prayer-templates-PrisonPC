@@ -1,0 +1,220 @@
+/* $Cambridge: hermes/src/prayer/files/static/camstyle.css,v 1.30 2008/10/02 17:14:57 dpc22 Exp $ */
+
+/* Generic stuff */
+input.button { background: #fff; border: 1px solid #666; }
+img.logo   { padding:0.2em 1em 0 1em; }
+label      { font-weight: bold; }
+
+/* Misc Toolbar */
+div#header { height:38px; }
+
+div.menu-wrapper, dl.menu {margin-top:0; padding-top:0;}
+form.lookup, form.lookup fieldset {margin-bottom:0; padding-bottom:0;}
+dl.menu dd.raven {background-image:none;}
+dl.menu dt {padding-top:1em;}
+
+/* Nested tables in text/html are a problem */
+div.fix_fonts table { font-size: 1em; }
+
+/* ====================================================================== */
+
+/* Dialogue box at top right of screen */
+
+div#header div#change-to .change {float:right; margin: 0 1.5em 0 0;}
+div#header div#change-to .change select, div#header div#site-search .change input {font-size:0.8em; }
+
+div#change-to {
+	float:none;
+	width:auto;
+	height:auto;
+	padding:10px 0 5px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#change-to form {
+	text-align:right;
+}
+
+/* ====================================================================== */
+
+/* navtabs standard house style element. We need modifiers for the compose
+   screen where elements are form submit buttons instead of links */
+
+div#navtabs .compose_toolbar_left {
+  float:left;
+  padding: 0.2em 0 0 0;
+  font-size:0.8em;
+  font-style: inherit; 
+  margin:0; 
+  width:80%;
+}
+
+div#navtabs .compose_toolbar_right {
+  float:right;
+  text-align: right;
+  padding: 0.2em 0 0 0;
+  font-size:0.8em;
+  font-style: inherit; 
+  margin:0; 
+  width:20%;}
+
+.compose_toolbar_left input, .compose_toolbar_right input {
+  border:none; 
+  background: #d3d3b1; 
+  border-right: #99cc99 1px solid; 
+  color: #336; 
+  font-size: 90%; 
+  padding:1px 9px 4px 9px;
+  margin:0; 
+  font-weight: inherit; 
+  font-style:  inherit; 
+  font-family: inherit;
+}
+
+.compose_toolbar_left input.active, .compose_toolbar_right input.active {
+  background:#9c9;
+  border: none;
+}
+
+/* All screens using navtabs split toolbar into two halves */
+div#navtabs .globnav {float: right;}
+
+/* ====================================================================== */
+
+/* Status line */
+table#status  { width: 100%; margin: 1em 0 0.5em 0; padding: 0 0 0.2em 0; }
+table#status td      { text-align:left; }
+table#status td.user { text-align:right; }
+table.default {background: #ccc;}
+table.info    {background: #ff9;}
+table.alert   {background: #f99;}
+
+/* ====================================================================== */
+
+/* Banner items */
+table.banner {
+  width:100%; background:#fff;
+  margin: 0; padding: 0 0 0.3em 0;
+  border-bottom: none;
+  white-space: nowrap;
+}
+table.banner td {padding:0.3em 0 0 0;}
+table.banner select {font-size: 0.9em;}
+table.banner img, table.banner input {vertical-align:bottom;}
+table.banner td.nav_c input {font-size: 0.9em;padding:0;}
+div.rule {border-top: 2px solid #999; margin: 0.2em 0 0 0;}
+
+td.nav       { padding: 0.2em 0.2em 0.2em 0; }
+td.nav_l     { width: 33%; padding: 0.2em 0.2em 0.2em 0 }
+td.nav_l img { float:left; padding: 0 0.2em 0 0; }
+
+td.nav_l select, table.banner td.nav input {
+  float:left; padding: 0; margin: 0 0.2em 0 0; font-size:0.9em;
+}
+
+td.nav_c {
+  width: 33%; text-align:center;
+  padding: 0 0.2em 0.2em 0;
+  vertical-align:bottom;
+}
+
+td.nav_r {
+  width: 34%; text-align:right; padding: 0 0.2em 0.2em 0;
+  vertical-align:bottom;
+}
+
+td.nav_r2 {
+  text-align:right;
+  padding: 0 0 0 0; margin: 0.5em 0 0 0.2em;
+  font-size:0.9em;
+  vertical-align:bottom;
+}
+
+td.nav_r2 input, td.nav_r2 input.button {
+  text-align:right;
+  padding: 0 0 0 0;
+  font-size:0.9em;
+  vertical-align:bottom;
+}
+
+td.right {
+  text-align:right; padding:0 0.2em 0 0;
+}
+
+/* ====================================================================== */
+
+/* Full width table with alternate striped lines */
+table.altrows { width: 100%; line-height: 1.5em; }
+table.altrows td {padding: 0 1em 0 0; }
+table.altrows tr.t_even_row { background: #CFC; }
+
+/* Modifier for altrows which suppresses line wrap, truncates instead */
+table.truncate {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+table.truncate td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* ====================================================================== */
+/* Additional styles specific to single pages */
+
+/* Highlight headers on compose screen */
+compose_table td.highlight {
+  background: #9C6;
+  font-size: 90%;
+  font-weight:bold;
+}
+
+/* Define style for tabs used on the preferences screen */
+table#prefs-tabbed {
+  margin: 0.5em 0 1em 0;
+  padding: 0;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: both;
+  overflow: hidden;
+}
+
+table#prefs-tabbed td {
+  float: left;
+  padding: 0;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+
+table#prefs-tabbed input {
+  border:0;
+  color: white;
+  background:#06c url(/icons/bg-tab-right.gif) no-repeat 100% 0;
+  padding: 0.4em 9px 0.25em 9px;
+}
+
+table#prefs-tabbed td.active input  {
+  background: #b2ccff url(/icons/bg-tab-right-active.gif) no-repeat 100% 0;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Style for confirmation screen (logout, expunge, delete) */
+div.confirm {width:50%; margin:1em auto;} 
+div.confirm ul {list-style-type: none; display: inline; }
+div.confirm ul li {
+  display: block;
+  background: #c96;
+  padding: 6px;
+  margin: 1em 0 2em 0;
+  float:left;
+}
+div.confirm ul li a {color: #000;}
+div#content-primary div.confirm ul li a:hover {text-decoration:none;}
+div.confirm ul li.OK {
+  display: block;
+  background: #069;
+  padding: 6px;
+  float:right;}
+div.confirm ul li.OK a {color: #fff;}
+div#content-primary div.confirm ul li.OK a:hover {text-decoration:none;}

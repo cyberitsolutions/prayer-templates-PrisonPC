@@ -1,0 +1,19 @@
+/* $Cambridge: hermes/src/prayer/files/static/yellow.css,v 1.11 2008/09/16 09:59:57 dpc22 Exp $ */
+
+BODY { 
+  background-color:  #ffffcc; 
+  color: #000000;
+}
+
+.t_banner   { background-color: #ffff66; white-space: nowrap; }
+.t_title    { background-color: #ffffcc; white-space: nowrap; }
+.t_odd_row  { background-color: #ffffcc; white-space: nowrap; }
+.t_even_row { background-color: #ffff66; white-space: nowrap; }
+
+.t_wbanner   { background-color: #ffff66; }
+.t_wtitle    { background-color: #ffffcc; }
+.t_wodd_row  { background-color: #ffffcc; }
+.t_weven_row { background-color: #ffff66; }
+
+.t_status   { background-color: #ccffff; }
+.t_nstatus  { background-color: #ccffcc; }

@@ -18,12 +18,6 @@
 <link rel="stylesheet" href="/static/ppcstyle.css"
       type="text/css" media="all" />
 <link rel="icon" type="image/png"  href="/icons/msg-seen.png" />
-
-<!--[if IE 6]><link rel="stylesheet" href="/static/ie6.css"
-type="text/css" media="screen" /><script type="text/javascript"
-src="/static/minmax.js"></script><![endif]-->
-<!--[if IE 7]><link rel="stylesheet" href="/static/ie7.css"
-type="text/css" media="screen" /><![endif]-->
 </head>
 
 <body class="one-col">

@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/spell.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/spell.t,v 1.2 2010/07/02 15:49:28 dpc22 Exp $
 %#
 % CALL header
 % CALL toolbar
@@ -33,7 +33,9 @@ Leave word</a> with current spelling, query further occurrences</li>
 <table>
 <tr>
 %   FOREACH $w @close
-<td><a href="<% spell?replace=${w->word|u} |s %>"><% $w->word |h %></a></td>
+<td>
+<a href="<% spell?replace=${w->word|u} |s %>"><% $w->word |h %></a>&nbsp;
+</td>
 %     IFDEF $w->break
 </tr><tr>
 %     ENDIF

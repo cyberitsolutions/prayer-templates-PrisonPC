@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/display_mime.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/display_mime.t,v 1.3 2010/07/08 16:18:09 dpc22 Exp $
 <hr />
 <p>
 MIME structure of

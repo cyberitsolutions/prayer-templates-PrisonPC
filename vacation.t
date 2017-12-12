@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/vacation.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/vacation.t,v 1.2 2010/07/02 08:31:08 dpc22 Exp $
 %#
 % CALL header
 % CALL toolbar
@@ -16,12 +16,24 @@
 <td><input type="checkbox" name="use_vacation" value="1" /></td>
 % ENDIF
 <td>Enable Vacation Message.</td>
-<td>&nbsp;&nbsp;&nbsp;Aliases:</td>
-<td><input name="aliases" value="<% $aliases |h %>" size="40" /></td>
+</tr>
+</table>
+<br />
+<table>
 % IFDEF $using_sieve
-<td>Interval (in days):</td>
-<td><input name="days" value="<% $days |h %>" size="3" /></td>
+<tr>
+<td>Frequency:&nbsp;</td>
+<td><input name="days" value="<% $days |h %>" size="3" />
+(days between vacation mesages to a given sender)</td>
+</tr>
 % ENDIF
+<tr>
+<td>Aliases:</td>
+<td><input name="aliases" value="<% $aliases |h %>" size="60" /></td>
+</tr>
+<tr>
+<td>Subject:</td>
+<td><input name="subject" value="<% $subject |h %>" size="60" /></td>
 </tr>
 </table>
 <textarea name="vacation_msg"

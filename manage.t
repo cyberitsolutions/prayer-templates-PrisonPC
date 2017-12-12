@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/manage.t,v 1.2 2009/08/21 08:47:08 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/manage.t,v 1.4 2009/11/17 11:50:31 dpc22 Exp $
 %#
 % CALL header
 % CALL toolbar

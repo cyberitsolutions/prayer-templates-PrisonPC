@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/login_hermes.t,v 1.7 2009/01/13 15:30:26 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/login_hermes.t,v 1.9 2011/06/15 13:36:10 dpc22 Exp $
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
 lang="en">
@@ -55,18 +55,15 @@ href="#skip-content" accesskey="2">Skip to content</a> </div>
 </a>
 </div>
 
-<div id="site-search">
-
-<form action="http://web-search.cam.ac.uk/query.html" method="get">
-<fieldset>
-<label for="search-term">Search</label>
-<input name="qt" type="text" id="search-term" accesskey="4" value="" />
-<input id="search-button" src="/icons/button-search.gif"
-       value="Search" alt="Search" title="Search" type="image" />
-</fieldset>
-</form>
-
-</div><!-- #site-search ends -->
+<div id="site-search"> 
+  <form action="http://search.cam.ac.uk/web" method="get"> 
+    <fieldset> 
+      <label for="query">Search</label> 
+      <input name="query" type="text" id="query" accesskey="4" value="" /> 
+      <input id="search-button" src="/icons/button-search.gif" value="Search" alt="Search" title="Search" type="image" /> 
+    </fieldset> 
+  </form> 
+</div><!-- #site-search ends --> 
 </div>
 
 <div id="dept-title">
@@ -130,6 +127,9 @@ href="#skip-content" accesskey="2">Skip to content</a> </div>
 </div>
 </fieldset>
 </form>
+% IFDEF $login_insert2
+<% ${login_insert2} |n %>
+% ENDIF
 % IFDEF $motd
 <% ${motd} |n %>
 % ENDIF

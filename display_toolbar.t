@@ -1,4 +1,4 @@
-%# $Cambridge: hermes/src/prayer/templates/cam/display_toolbar.t,v 1.2 2008/09/25 15:54:59 dpc22 Exp $
+%# $Cambridge: hermes/src/prayer/templates/cam/display_toolbar.t,v 1.3 2010/07/08 16:05:45 dpc22 Exp $
 %#
 <table class="banner" cellpadding="0">
 <tr>
@@ -47,9 +47,9 @@ Resume</a>
 % ENDIF
 | <a href="<% "download/${nav->cur_msg}/${nav->cur_uid}" |S %>">Download Message</a>
 % IFDEF $section_url
-| <a href="<% "printable/${nav->cur_msg}/${nav->cur_uid}/${section_url}" |S %>">Printable Version</a>
+| <a href="<% "printable/${nav->cur_msg}/${nav->cur_uid}/${section_url}" |s %>">Printable Version</a>
 % ELSE
-| <a href="<% "printable/${nav->cur_msg}/${nav->cur_uid}" |S %>">Printable Version</a>
+| <a href="<% "printable/${nav->cur_msg}/${nav->cur_uid}" |s %>">Printable Version</a>
 % ENDIF
 </td></tr>
 </table>

@@ -69,18 +69,12 @@
 <tr><td>Line Wrap at:</td>
 <td><input name="line_wrap_len"
            value="<% $line_wrap_len |h %>" size="3" />columns</td></tr>
-<tr><td>Normal Compose window size:</td>
+<tr><td>Compose window size:</td>
 <td><input name="small_cols"
            value="<% $small_cols |h %>" size="3" />columns</td>
 <td><input name="small_rows"
            value="<% $small_rows |h %>" size="3" /> rows
 </td></tr>
-<tr><td>Large Compose window size</td>
-<td><input name="large_cols"
-           value="<% $large_cols |h %>" size="3" />columns</td>
-<td><input name="large_rows"
-           value="<% $large_rows |h %>" size="3" />rows</td>
-</tr>
 % IFDEF $domains[1]
 <tr><td>Default domain:</td>
 <td><select name="default_domain" size="1">

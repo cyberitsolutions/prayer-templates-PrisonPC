@@ -23,11 +23,8 @@
 <li><i>Line Wrap at:</i> - controls the number of characters (columns)
        which can appear in a line before the line is wrapped.
        Many people use an 80-character window, so 76 allows a good fit.</li>
-<li><i>Normal Compose window size</i> - controls the size of the text
+<li><i>Compose window size</i> - controls the size of the text
        body area visible in the standard Compose screen. </li>
-<li><i>Large Compose window size</i> - controls the size of the text
-       body area visible if the Large button is selected from the
-       standard Compose screen.</li>
 <li> <i>Spell Check language</i> controls which dictionary is used. 
      At present the only languages are <i>British English</i> and
      <i>American English</i>. The choice of which language affects

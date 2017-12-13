@@ -47,10 +47,6 @@ These are described at the bottom of this page.</p>
 </li>
 <li>Above the message body part:
  <ul>
-  <li><i>Large</i> -  takes you to another screen
-        with a larger form area for the body part. The
-        size of this form area is defined in
-         <i>Manage -&gt; Preferences -&gt; Extra Compose</i>.</li>
   <li><i>Clear Headers</i> - Clears all message headers. </li>
   <li><i>Clear Body</i> - Clears all text entered in the body of 
       the message. </li>

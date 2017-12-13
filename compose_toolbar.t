@@ -1,5 +1,4 @@
 %# $Cambridge: hermes/src/prayer/templates/cam/compose_toolbar.t,v 1.5 2010/11/01 10:57:05 dpc22 Exp $
-<div id="skip"> <a href="#skip-content" accesskey="2">Skip to content</a></div>
 <div id="header">
   <div id="branding">
   </div>

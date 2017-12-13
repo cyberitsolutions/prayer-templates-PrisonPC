@@ -37,8 +37,6 @@ table#login td input {margin:0 0 0.5em 0;}
 </script>
 </head>
 <body class="home" onload="init()">
-<div id="skip"> <a
-href="#skip-content" accesskey="2">Skip to content</a> </div>
 <div id="header">
 <div id="branding">
 </div>
@@ -56,7 +54,7 @@ href="#skip-content" accesskey="2">Skip to content</a> </div>
 % ENDIF
 </div>
 %
-<div id="container"> <a name="skip-content" id="skip-content"></a>
+<div id="container">
 <div id="content">
   <div id="content-primary">
 % IFDEF $ssl_available

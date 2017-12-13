@@ -48,22 +48,6 @@ the use of any icons in the Email interface) using options found in
  <td valign="top"><strong>Message: 1 out of 4</strong></td>
  <td> informative message.</td>
 </tr>
-<tr>
- <td valign="top"><i>Show Hdrs</i></td>
- <td><i>Show Headers</i> displays the full set of message headers.
-     This option is most useful when trying to trace a problem.
-     If you select this the option changes to <i>Hide Hdrs</i> and
-     the full headers are shown for every message until you
-     select <i>Hide Hdrs</i>. </td>
-</tr>
-<tr>
- <td valign="top"><i>Download Message</i></td>
- <td> this presents the entire message, including all the 
-      message headers, in a plain form (i.e. without the Email icons 
-      and actions) suitable for printing or saving to 
-      your local system using your browser's printing and saving
-      facilities.</td>
-</tr> 
 </table>
 
 <h2><a name="Message">The message</a></h2>

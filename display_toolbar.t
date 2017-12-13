@@ -39,17 +39,5 @@ Resume</a>
 </td>
 <td class="nav_c">
 <strong><% "Message: $nav->cur_msg out of $nav->msg_count" |h %></strong>
-</td><td class="nav_r">
-% IFDEF $full_hdrs
-<a href="<% "hdrs/${nav->cur_msg}/${nav->cur_uid}" |s %>">Hide Hdrs</a>
-% ELSE
-<a href="<% "hdrs/${nav->cur_msg}/${nav->cur_uid}" |s %>">Show Hdrs</a>
-% ENDIF
-| <a href="<% "download/${nav->cur_msg}/${nav->cur_uid}" |S %>">Download Message</a>
-% IFDEF $section_url
-| <a href="<% "printable/${nav->cur_msg}/${nav->cur_uid}/${section_url}" |s %>">Printable Version</a>
-% ELSE
-| <a href="<% "printable/${nav->cur_msg}/${nav->cur_uid}" |s %>">Printable Version</a>
-% ENDIF
 </td></tr>
 </table>

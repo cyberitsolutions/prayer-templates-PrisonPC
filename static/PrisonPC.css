@@ -112,18 +112,6 @@ fieldset { border:none }
 #status.alert td:first-of-type { background-color:#EF2929; color:#EEEEEC }
 #status.info  td:first-of-type { background-color:#FCE94F; color:#2E3436 }
 
-/* Hide useless and unwanted elements.  */
-/* NOTE: this is hack to match message display_toolbar.t:
-     Show Hdrs | Download Message | Printable Version
-   but NOT folders_toolbar.t:
-     Refresh | Transfer Folders | Sizes | Favourite Folders
-   NOR list_toolbar_top.t:
-     Refresh | Expunge | Search
- */
-.nav_l+.nav_c+.nav_r,
-CANTHAPPEN
-{ display: none }
-
 /* These aren't working in chromium.
    The inspector shows the content attribute is applied, but
    what actually renders is still the GIFs!

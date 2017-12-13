@@ -63,12 +63,6 @@ the original copy is now marked as deleted, for example:-</p>
     </table>
 </td>
 <td align="center"><strong>Message: 12 out of 12</strong></td>
-<td align="right"><table><tr>
-      <td><a href="#List">Show Hdrs</a></td>
-      <td>|</td>
-      <td><a href="#List">Download Message</a></td>
-      </tr></table>
-</td>
 </tr>
 </table>
 

@@ -6,9 +6,7 @@
 % CALL status
 % CALL display_toolbar
 <div class="rule"></div>
-% IFNDEF $full_hdrs
-%   CALL display_hdrs
-% ENDIF
+% CALL display_hdrs
 %#
 %# Live system inserts message MIME structure and body by hand here
 %#

@@ -3,30 +3,6 @@
 <div id="header">
 <div id="branding">
 </div>
-<div id="change-to">
-<form method="post" accept-charset="UTF-8"
-      enctype="multipart/form-data" action="<% change |s %>">
-<div class="change">
-Change to:
-<select name="folder">
-% IFDEF $g_favourites[0]
-%   FOREACH $m @g_favourites
-%     IFEQ $m->name $g_preferred
-<option value="<% $m->name |c %>" selected="selected"><% ${m->name|7} |h %></option>
-%     ELSE
-<option value="<% $m->name |c %>"><% ${m->name|7} |h %></option>
-%     ENDIF
-%   ENDFOREACH
-% ELSE
-%   FOREACH $m @g_mailbox_list
-<option value="<% $m->name |c %>"><% ${m->name|7} |h %></option>
-%   ENDFOREACH
-% ENDIF
-</select>
-<input type="submit" name="sub_folder_dialogue" value="Go" />
-</div>
-</form>
-</div>
 </div>
 <div id="dept-title">
 % IFDEF $g_service_name

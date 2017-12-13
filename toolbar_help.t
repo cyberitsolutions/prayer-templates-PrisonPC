@@ -94,46 +94,6 @@ shortcuts to the main Email functions. </p>
 <table>
 <tr>
 <td valign="top">
- <form action="<% action_stub |s %>">
- <table>
- <tr>
- <td>Change to:
- <select name="folder" size="1">
- <option>INBOX</option>
- <option>mail/received</option>
- <option>mail/postponed-msgs</option>
- <option>mail/sent-mail</option>
- <option>mail/test-folder</option>
- </select>
- <input type="submit" name="sub_folder_dialogue" value="Go" />
- </td>
- </tr>
- </table>
- </form>
-</td>
-<td><p>By default this pull-down list will show all your mail folders.  
-    You can change to any listed folder by selecting that from the list 
-    and then selecting <i>Go</i>.</p>
-   <p> If you have specified any "favourite" mail folders, then the 
-       general listing of your mail folders is replaced by a pull-down list
-       showing just the favourites, for example:-</p>
-        <form action="<% action_stub |s %>"><table><tr>
-       <td>
-        Change to:
-        <select name="folder" size="1">
-         <option value="inbox">INBOX</option>
-        <option value="mail%2ftest1">mail/test-folder</option>
-        </select>
-         <input type="submit" name="sub_folder_dialogue" value="Go" />
-           </td>
-          </tr></table></form>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td valign="top">
   <table>
   <tr><td align="center" valign="top">Help</td></tr>
   </table>

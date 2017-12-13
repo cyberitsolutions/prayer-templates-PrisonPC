@@ -113,7 +113,6 @@ fieldset { border:none }
 #status.info  td:first-of-type { background-color:#FCE94F; color:#2E3436 }
 
 /* Hide useless and unwanted elements.  */
-#change-to,                     /* Change to: [INBOX] [Go] */
 /* NOTE: this is hack to match message display_toolbar.t:
      Show Hdrs | Download Message | Printable Version
    but NOT folders_toolbar.t:

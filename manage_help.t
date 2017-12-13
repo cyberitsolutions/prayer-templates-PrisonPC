@@ -36,9 +36,6 @@ own specific help page.  The categories are:-</p>
     <li><i>Personal Dictionary</i> to which you can
     add words you commonly use that are not in the system
     dictionary.</li>
-    <li><i>Roles</i> where, if you have various 
-      roles, you can define relevant information - From and
-    Reply-to addresses and a signature.</li>
   </ul> 
 </li>
 </ul>

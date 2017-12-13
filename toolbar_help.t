@@ -62,9 +62,7 @@ shortcuts to the main Email functions. </p>
 <td>Select this to start writing a new message. Normally this will
     take you straight to the message composition screen, but if you
     have any postponed messages you will be asked whether you want to
-    edit one of these or start a new message.   If you have defined one
-    or more "roles" for yourself (see the <i>Manage</i> screens) then you 
-    will be asked to select which role you want to use.</td>
+    edit one of these or start a new message.</td>
 </tr>
 <tr>
 <td valign="top">

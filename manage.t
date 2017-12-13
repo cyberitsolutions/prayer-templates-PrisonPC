@@ -12,7 +12,6 @@
     <ul>
       <li><a href="<% prefs |s %>">Preferences</a></li>
       <li><a href="<% dictionary |s %>">Personal dictionary</a></li>
-      <li><a href="<% roles_list |s %>">Roles</a></li>
     </ul>
   </li>
 </ul>

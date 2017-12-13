@@ -1,0 +1,155 @@
+:root {
+    font-family: sans-serif;
+    color:#2E3436;
+    /* This is the ppcadm theme in Stretch (17.10).
+       It does not work here, because
+       1. Prayer sends .svg with Content-Type: text/plain.
+       2. Chromium sees text/plain and goes "this isn't an image!". */
+    /* background: url(PrisonPC-trademark.svg) bottom right / 30em no-repeat,
+                linear-gradient(to right, #EEEEEC 66%, #729FCF); */
+    background: url(PrisonPC-background.jpg) bottom right repeat-y;
+    /* The "bottom right" above is the bottom right of the CONTENT, not the view window.
+       As a workaround, make the content fit to the view window. */
+    height: 100vh;
+    width: 100vw;
+}
+
+
+h1 {
+    color: #EEEEEC;
+    background-color: #204A87;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 4px 0;
+}
+
+#navtabs {
+    display: flex;
+    justify-content: space-between;
+}
+/* FIXME: compose_toolbar.t uses DIV instead of UL! */
+#navtabs ul, #navtabs div {
+    display: flex;
+    list-style: none;
+    margin:0;padding:0;border:0;
+}
+#navtabs a { color:inherit; text-decoration:inherit; }
+#navtabs input { border:0; font: inherit; }
+/* FIXME: compose_toolbar.t uses INPUT instead of LI! */
+/* FIXME: we theme the A instead of the LI because the class="current" below is on the A.
+          It should move to the INPUT. */
+#navtabs li>a, #navtabs input {
+    color:#EEEEEC; background:linear-gradient(to bottom,#3465A4 90%,#204A87);
+
+    display:block;
+    border-radius:8px 8px 0 0;
+    padding:6px;
+    margin:0 2px;
+    font-weight:bold;
+    font-size:1.1em;
+    /* fade in/out of :hover colors, below */
+    transition:color 0.5s, background-color 0.5s;
+}
+/* NOTE: active sidebar/notebook tab's background color MUST match the
+   LHS color of main_bg.png, so that it appears to be part of the main
+   canvas area. That's why it's "white" not #EEEEEC. —twb, Jul 2017 */
+#navtabs li>a.current, #navtabs input.active { color:#2E3436; background:#EEEEEC }
+#navtabs li>a:hover, #navtabs input:hover { color:#2E3436; background:#FCAF3E }
+
+
+/* FIXME: this is a really AWFUL way to colour the #navtab trough! */
+body { background:#729FCF; }
+
+/* Color the main content area to match the active tab, so they "blend" together. */
+#container { background:#EEEEEC; padding:1em 1ex; }
+
+
+/* Ordinary hyperlinks - use Tango colors. */
+a[href]:link    { color:#3465A4 }
+a[href]:visited { color:#75507B }
+a[href]:hover   { color:#729FCF }
+
+/* Zebra striping on SOME tables. */
+/* FIXME: in display_hdrs.t, use TH not TD>STRONG */
+/* FIXME: in display_hdrs.t, use class="altrows" */
+table.altrows { empty-cells:show; border-collapse:collapse; width:100%; }
+table.altrows td { padding:0.2em; vertical-align:top; }
+table.altrows tr:nth-child(odd)  { background:#EEEEEC }
+table.altrows tr:nth-child(even) { background:#D3D7CF }
+
+/* FIXME: prayer should use TH not TR.t_title>TD! */
+/* FIXME: prayer should put THs in THEAD, not TBODY! */
+tr.t_title>td {font-weight:bold}
+
+/* When an email has multiple MIME attachments, each one is a separate PRE. */
+pre { border:thin solid #BABDB6;background:white;margin:1em;padding:1em; }
+hr { border:thin solid #BABDB6 }
+
+/* FIXME: remove FIELDSET from login.t, instead of de-styling it here. */
+fieldset { border:none }
+
+/* This is the "Message: 8 of 13" line in Message tab.
+   This is the "INBOX with 13 messages" in Mailbox tab.
+   We forcibly convert the 3x1 "layout" table to a flexbox. */
+.banner,
+.banner>tbody
+{ display: block; }
+.banner>tbody>tr
+{ display: flex; justify-content: space-between; }
+
+/* Do the same with the "status" line. */
+#status,
+#status>tbody
+{ display: block; }
+#status>tbody>tr
+{ display: flex; justify-content: space-between; }
+
+/* The status normally just says "log out you idiot".
+   When something goes wrong, highlight it.
+   NOTE: don't highlight the "you're logged in as" bit,
+   only the RHS with the actual error.
+ */
+#status.alert td:first-of-type { background-color:#EF2929; color:#EEEEEC }
+#status.info  td:first-of-type { background-color:#FCE94F; color:#2E3436 }
+
+/* Hide useless and unwanted elements.  */
+a[href="#skip-content"],        /* Skip to content */
+#change-to,                     /* Change to: [INBOX] [Go] */
+/* NOTE: this is hack to match message display_toolbar.t:
+     Show Hdrs | Download Message | Printable Version
+   but NOT folders_toolbar.t:
+     Refresh | Transfer Folders | Sizes | Favourite Folders
+   NOR list_toolbar_top.t:
+     Refresh | Expunge | Search
+ */
+.nav_l+.nav_c+.nav_r,
+CANTHAPPEN
+{ display: none }
+
+/* These aren't working in chromium.
+   The inspector shows the content attribute is applied, but
+   what actually renders is still the GIFs!
+   NOTE: preaction in #CSS says this is because
+           "img is replaced content. you can't give it a child element"
+         …and content: and ::after both count as child text nodes.
+
+   It works perfectly well in PrinceXML, though. ☹ */
+/*
+img[src="/icons/rightright-inactive.gif"] { display:inline; height:auto; width:auto; content:"⏩"; color:#BABDB6; }
+img[src="/icons/right-inactive.gif"]      { display:inline; height:auto; width:auto; content:"▶"; color:#BABDB6; }
+img[src="/icons/left-inactive.gif"]       { display:inline; height:auto; width:auto; content:"◀"; color:#BABDB6; }
+img[src="/icons/leftleft-inactive.gif"]   { display:inline; height:auto; width:auto; content:"⏪"; color:#BABDB6; }
+img[src="/icons/rightright.gif"]          { display:inline; height:auto; width:auto; content:"⏩"; }
+img[src="/icons/right.gif"]               { display:inline; height:auto; width:auto; content:"▶"; }
+img[src="/icons/left.gif"]                { display:inline; height:auto; width:auto; content:"◀"; }
+img[src="/icons/leftleft.gif"]            { display:inline; height:auto; width:auto; content:"⏪"; }
+img[src="/icons/down.gif"]                { display:inline; height:auto; width:auto; content:"▼"; }
+*/
+
+
+/* We SHOULD make background/color/border-color specific to @media=screen.
+   Chromium's print mode is smart enough to do this for us, yay!
+   See the checkbox Ctrl+P > More settings > Background graphics. */
+@media print {
+    h1, #navtabs, #status, .banner {display:none}
+}

@@ -1,3 +1,2 @@
 *.so                /usr/lib/prayer/templates/
-static/ppc*.css     /usr/share/prayer/static/
-static/main_bg.jpg  /usr/share/prayer/static/
+static/*            /usr/share/prayer/static/

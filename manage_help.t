@@ -41,25 +41,5 @@ own specific help page.  The categories are:-</p>
     Reply-to addresses and a signature.</li>
   </ul> 
 </li>
-
-% IFDEF $accountd_server
-<li>Account Management, covering:
-     <ul> 
-     <li><i>Change Password</i></li> 
-     <li><i>Change Fullname</i></li> 
-     <li><i>Check Quota</i></li>
-     </ul>
-</li>
-<li>Mail Processing, covering:
-     <ul>
-     <li><i>Redirecting</i> your mail to
-         another address</li>
-     <li>Setting up a <i>vacation message</i></li>
-     <li>Setting up mail <i>filtering</i> and <i>blocks</i></li>
-     <li>Setting up automatic filtering for <i>Junk Email</i></li>
-     <li><i>Advanced</i> Mail filtering, if available on this account</li>
-     </ul>
-</li>
-% ENDIF
 </ul>
 

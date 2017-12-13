@@ -86,13 +86,7 @@ shortcuts to the main Email functions. </p>
 <td>Selecting this leads to screens that let you configure various 
    aspects of the Email system either for the current session or
    for every future session.
-% IFDEF $accountd_server
-   These include preferences that affect the appearance of the system,
-   account management (e.g.  changing your password), mail processing
-   (e.g. setting a vacation message)
-% ELSE
    These include preferences that affect the appearance of the system
-% ENDIF
    and defining a personal dictionary.</td>
 </tr>
 </table>

@@ -10,7 +10,6 @@
 </td>
 <td class="nav_r">
 <a href="<% dir_check/folders |s %>">Refresh</a>&nbsp;|&nbsp;\
-<a href="<% transfer |s %>">Transfer Folders</a>&nbsp;|&nbsp;\
 <a href="<% sizes |s %>">Sizes</a>&nbsp;|&nbsp;\
 <a href="<% favourites |s %>">Favourite Folders</a>
 </td>

@@ -1,11 +1,5 @@
 %# $Cambridge: hermes/src/prayer/templates/cam/folderlist_nfolders.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
 %#
-% IFEQ $_cmd "transfer"
-<td><a href="<% download_xfer/${_name|c} |S %>">Download</a></td>
-% ELSE
-%   IFEQ $_cmd "upload_select"
-<td><a href="<% upload_xfer/${_name|c} |s %>">Append</a></td>
-%   ELSE
 %     IFEQ $_cmd "favourites"
 <td><a href="<% subscribe/${_name|c} |s %>">Add to favourites</a></td>
 %     ELSE
@@ -24,5 +18,3 @@
 %         ENDIF
 %       ENDIF
 %     ENDIF
-%   ENDIF
-% ENDIF

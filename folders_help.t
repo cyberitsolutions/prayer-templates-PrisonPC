@@ -39,12 +39,6 @@ Mailboxes can be created under existing directories.
  <td> checks the contents of the directory on the <% $g_service_name |h %>.</td>
 </tr>
 <tr>
-  <td valign="top"><i>Transfer Folders</i></td>
-  <td>allows you to upload a local mail folder to
-      <% $g_service_name |h %> or download a mail folder from <% $g_service_name |h %> to your
-      local machine. </td>
-</tr>
-<tr>
   <td valign="top"><i>Sizes</i></td>
   <td>shows you the size of each mailbox on the system</td>
 </tr>

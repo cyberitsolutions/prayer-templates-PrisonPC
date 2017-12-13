@@ -34,11 +34,6 @@
 <td>Default: <% $default_from_address |h %></td>
 % ENDIF
 </tr>
-<tr>
-<td>Default Reply-To:</td>
-<td><input name="default_reply_to"
-           value="<% $default_reply_to |h %>" size="40" /></td>
-</tr>
 </table>
 <h3>Signature:</h3>
 <textarea name="signature" cols="75" rows="4"><% $signature |h %></textarea>

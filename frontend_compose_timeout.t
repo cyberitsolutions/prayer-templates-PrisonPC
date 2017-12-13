@@ -18,23 +18,6 @@
 <td>Cc:</td>
 <td><input name="hdr_Cc" value="<% $hdr_cc |h %>" size="70" /></td>
 </tr>
-% IFNEQ $hdr_bcc ""
-<tr>
-<td>Bcc:</td>
-<td><input name="hdr_Bcc" value="<% $hdr_bcc |h %>" size="70" /></td>
-</tr>
-% ENDIF
-% IFNEQ $hdr_fcc ""
-<tr>
-<td>Fcc:</td><td><input name="hdr_Fcc" value="<% $hdr_fcc |h %>" size="70" /></td>
-</tr>
-% ENDIF
-% IFNEQ $hdr_reply_to ""
-<tr>
-<td>Reply-To:</td>
-<td><input name="hdr_Reply_To" value="<% $hdr_reply_to |h %>" size="70" /></td>
-</tr>
-% ENDIF
 <tr>
 <td>Subject:</td>
 <td><input name="hdr_Subject" value="<% $hdr_subject |h %>" size="70" /></td>

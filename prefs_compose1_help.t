@@ -13,11 +13,6 @@
      An address must be valid and it must belong to you.
     For example a valid alternative to <tt>sp999@cam.ac.uk</tt>
     would be <tt>sp999@hermes.cam.ac.uk</tt>.</li>
-<li><i>Default Reply-To:</i> - By default replies will be sent
-    to the address in the From: field of a message.  
-    If you wish replies to be sent to another address, or addresses,
-    then you can enter that address, or comma-separated list of
-    addresses, in this field.</li>
 <li><i>Signature:</i> - information that appears at the bottom of
        a message.  By convention this is 4 lines or less.  It is preceded
        by a separator line <tt>-- </tt>.  If you create a signature

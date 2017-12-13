@@ -9,7 +9,7 @@
 <tr>
  <td>Msgno</td>
  <td>Date</td>
- <td>First To/Cc/Bcc</td>
+ <td>First To/Cc</td>
  <td align="right">Size</td>
  <td>Subject</td>
 </tr>

@@ -36,12 +36,8 @@
 <td><input type="submit" name="sub_cancel" value="Cancel" /></td>
 <td><input type="submit" name="sub_postpone" value="Postpone" /></td>
 <td><input type="submit" name="sub_send" value="Send" /></td>
-% IFDEF $copy_outgoing
-<td><input type="checkbox" name="copy_outgoing" value="1" checked="checked" /></td>
-% ELSE
-<td><input type="checkbox" name="copy_outgoing" value="1" /></td>
-% ENDIF
-<td>Save copy</td>
+%# ALWAYS save a copy (FCC) to "sent-mail" folder.
+<input type="hidden" name="copy_outgoing" value="1" />
 </tr></table>
 % IFDEF $g_help
 %   IFDEF $large

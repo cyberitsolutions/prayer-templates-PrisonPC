@@ -71,7 +71,6 @@
 <td valign="top">
 <input type="checkbox" name="to_<% $i->offset |h %>" />To
 <input type="checkbox" name="cc_<% $i->offset |h %>" />Cc
-<input type="checkbox" name="bcc_<% $i->offset |h %>" />Bcc
 </td>
 %   ELSE
 <td valign="top"><a href="<% abook_compose/${i->display_name|c}/${i->email|c} |s %>">Compose</a></td>

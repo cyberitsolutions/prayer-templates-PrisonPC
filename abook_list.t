@@ -34,7 +34,6 @@
 %   IFDEF $g_have_draft
 <input type="checkbox" name="to_<% $a->num |n %>" />To
 <input type="checkbox" name="cc_<% $a->num |n %>" />Cc
-<input type="checkbox" name="bcc_<% $a->num |n %>" />Bcc
 %   ELSE
 <a href="<% abook_compose/${a->name|c}/${a->email|c} |s %>">Compose</a>
 %   ENDIF

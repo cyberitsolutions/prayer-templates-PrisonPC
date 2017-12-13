@@ -43,23 +43,6 @@ These are described at the bottom of this page.</p>
        <td align="left"><b>Status:</b>Header To Lookup Complete</td>
       </tr></table>
    </li>
-   <li><i>Rich Headers</i> -  the standard header fields are 
-      <i>To:</i>, <i>Cc:</i> and <i>Subject:</i>.  Selecting the
-     <i>Rich Headers</i> button gives other header fields.  These are
-        <ul>
-        <li><i>Bcc:</i> - for use if you wish to send a copy of the
-            message to someone but do not wish the other 
-            recipients to see that you have sent a copy to that 
-            person</li>
-        <li><i>Fcc:</i> - in which you can enter the name of a mail
-            folder to which you want the message copied 
-            (the default is <i>sent-mail</i>) </li>
-        <li><i>Reply-To:</i> - by default a reply will come to your
-            address as it appears in the <i>From:</i> field.  You can
-            use this if you wish any reply to come to a different
-            address.</li>
-        </ul>
-    </li>
   </ul> 
 </li>
 <li>Above the message body part:

@@ -10,33 +10,10 @@
 <td><input name="hdr_Cc" value="<% $hdr_cc |h %>" size="70" /></td>
 <td><input type="submit" name="sub_abook_Cc" value="Expand" /></td>
 </tr>
-% IFDEF $rich_headers
-<tr>
-<td class="highlight">Bcc:</td>
-<td><input name="hdr_Bcc" value="<% $hdr_bcc |h %>" size="70" /></td>
-<td><input type="submit" name="sub_abook_Bcc" value="Expand" /></td>
-</tr>
-<tr>
-<td class="highlight">Fcc:</td>
-<td><input name="hdr_Fcc" value="<% $hdr_fcc |h %>" size="70" /></td>
-</tr>
-<tr>
-<td class="highlight">Reply-To:</td>
-<td><input name="hdr_Reply_To" value="<% $hdr_reply_to |h %>" size="70" /></td>
-</tr>
 <tr>
 <td class="highlight">Subject:</td>
 <td><input name="hdr_Subject" value="<% $hdr_subject |h %>" size="70" /></td>
-<td><input type="submit" name="sub_no_rich_headers"
-     value="Hide Rich Headers" /></td>
 </tr>
-% ELSE
-<tr>
-<td class="highlight">Subject:</td>
-<td><input name="hdr_Subject" value="<% $hdr_subject |h %>" size="70" /></td>
-<td><input type="submit" name="sub_rich_headers" value="Rich Headers" /></td>
-</tr>
-% ENDIF
 </table>
 <br />
 <table cellspacing="0" cellpadding="0">

@@ -123,7 +123,6 @@ look like this:
    <td>&nbsp;</td><td valign="top"><a href="#ref">Add</a></td>
    <td><input type="checkbox" name="to_0" />To
      <input type="checkbox" name="cc_0" />Cc
-     <input type="checkbox" name="bcc_0" />Bcc
    </td>
  </tr></table>
  </form>
@@ -140,8 +139,8 @@ look like this:
         has set up a name different from the original, registered name.</li>
     <li>Selecting <i>Add</i> takes you to the <i>Addressbook Entry</i>
         screen so that you can add the email address to your addressbook.</li>
-    <li> Use the check boxes to select addresses for the <i> To:</i>,
-     <i>Cc:</i> or <i> Bcc:</i> fields of your message.  
+    <li> Use the check boxes to select addresses for the <i> To:</i> or
+     <i>Cc:</i> fields of your message.  
        Check the boxes you want on one search result page, then select
        the <i>Add marked to draft</i> button.  The <i>Status</i> line
        will be updated to reflect your action, for example

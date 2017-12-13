@@ -105,8 +105,7 @@ of the following conditions hold
 To</a>
 <a href="<% add_address/abook_search/Cc/${r->name|c}/${r->email|c} |s %>">
 Cc</a>
-<a href="<% add_address/abook_search/Bcc/${r->name|c}/${r->email|c} |s %>">
-Bcc</a></td>
+</td>
 % ELSE
 <td><a href="<% abook_compose/${r->name|c}/${r->email|c} |s %>">
 Compose fresh message</a></td>

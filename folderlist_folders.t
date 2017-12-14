@@ -3,6 +3,6 @@
 % IFEQ $_name "INBOX"
 <td></td><td ></td>
 % ELSE
-<td><a href="<% rename/${_name|c} |s %>">Rename</a></td>
-<td><a href="<% rm/${_type}/${_name|c} |s %>">Delete</a></td>
+<td><a href="<% rename/${_name|c} |s %>"><button type="button">Rename</button></a></td>
+<td><a href="<% rm/${_type}/${_name|c} |s %>"><button type="button">Delete</button></a></td>
 % ENDIF

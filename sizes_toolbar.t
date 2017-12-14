@@ -3,7 +3,6 @@
 <table class="banner">
 <tr>
 <td class="nav_r">
-<a href="<% dir_check/sizes |s %>">
-Refresh</a>
+<a href="<% dir_check/sizes |s %>"><button type="button">Refresh</button></a>
 </td></tr></table>
 

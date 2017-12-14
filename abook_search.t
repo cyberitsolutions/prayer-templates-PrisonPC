@@ -101,13 +101,13 @@ of the following conditions hold
 % IFDEF $g_have_draft
 <td>
 <a href="<% add_address/abook_search/To/${r->name|c}/${r->email|c} |s %>">
-To</a>
+<button type="button">To</button></a>
 <a href="<% add_address/abook_search/Cc/${r->name|c}/${r->email|c} |s %>">
-Cc</a>
+<button type="button">Cc</button></a>
 </td>
 % ELSE
 <td><a href="<% abook_compose/${r->name|c}/${r->email|c} |s %>">
-Compose fresh message</a></td>
+<button type="button">Compose fresh message</button></a></td>
 % ENDIF
 </tr>
 %   ENDFOREACH

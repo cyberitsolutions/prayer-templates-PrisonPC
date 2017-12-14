@@ -9,7 +9,6 @@
 % CALL folderlist_select
 </td>
 <td class="nav_r">
-<a href="<% dir_check/copy |s %>">
-Refresh</a>
+<a href="<% dir_check/copy |s %>"><button type="button">Refresh</button></a>
 </td></tr></table>
 </form>

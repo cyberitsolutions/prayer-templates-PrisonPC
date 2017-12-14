@@ -35,7 +35,7 @@
 <input type="checkbox" name="to_<% $a->num |n %>" />To
 <input type="checkbox" name="cc_<% $a->num |n %>" />Cc
 %   ELSE
-<a href="<% abook_compose/${a->name|c}/${a->email|c} |s %>">Compose</a>
+<a href="<% abook_compose/${a->name|c}/${a->email|c} |s %>"><button type="button">Compose</button></a>
 %   ENDIF
 </td>
 </tr>

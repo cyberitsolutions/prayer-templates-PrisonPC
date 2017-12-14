@@ -9,9 +9,9 @@
 % CALL folderlist_select
 </td>
 <td class="nav_r">
-<a href="<% dir_check/folders |s %>">Refresh</a>&nbsp;|&nbsp;\
-<a href="<% sizes |s %>">Sizes</a>&nbsp;|&nbsp;\
-<a href="<% favourites |s %>">Favourite Folders</a>
+<a href="<% dir_check/folders |s %>"><button type="button">Refresh</button></a>
+<a href="<% sizes |s %>"><button type="button">Sizes</button></a>
+<a href="<% favourites |s %>"><button type="button">Favourite Folders</button></a>
 </td>
 </tr></table>
 </form>

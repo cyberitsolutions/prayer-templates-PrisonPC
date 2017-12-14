@@ -8,33 +8,32 @@
 % ELSE
 %   CALL display_toolbar_noicons
 % ENDIF
-|
 <a href="<% "copy/${nav->cur_msg}/${nav->cur_uid}" |s %>">
-Copy</a> |
+<button type="button">Copy</button></a>
 % IFDEF $nav->deleted
 <a href="<% disp_undelete/${nav->cur_msg}/${nav->cur_uid} |s %>">
-Undelete</a> |
+<button type="button">Undelete</button></a>
 % ELSE
 <a href="<% disp_delete/${nav->cur_msg}/${nav->cur_uid} |s %>">
-Delete</a> |
+<button type="button">Delete</button></a>
 % ENDIF
 % IFDEF $use_persist
 %   IFDEF $nav->marked
 <a href="<% disp_unmark/${nav->cur_msg}/${nav->cur_uid} |s %>">
-Unmark</a>|
+<button type="button">Unmark</button></a
 %   ELSE
 <a href="<% disp_mark/${nav->cur_msg}/${nav->cur_uid} |s %>">
 Mark</a>|
 %   ENDIF
 % ENDIF
 <a href="<% reply/${nav->cur_msg}/${nav->cur_uid} |s %>">
-Reply</a> |
+<button type="button">Reply</button></a>
 <a href="<% forward/${nav->cur_msg}/${nav->cur_uid} |s %>">
-Forward</a>
+<button type="button">Forward</button></a>
 % IFDEF $is_postponed_folder
 |
 <a href="<% resume/${nav->cur_msg}/${nav->cur_uid} |s %>">
-Resume</a>
+<button type="button">Resume</button></a>
 % ENDIF
 </td>
 <td class="nav_c">

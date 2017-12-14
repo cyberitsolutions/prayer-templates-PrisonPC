@@ -78,9 +78,9 @@ No\
 </a></td>
 <td class="right">
 % IFDEF $msg->is_deleted
- <a href="<% undelete/${msg->num}/${msg->uid} |s %>">Undelete</a></td>
+ <a href="<% undelete/${msg->num}/${msg->uid} |s %>"><button type="button">Undelete</button></a></td>
 % ELSE
- <a href="<% delete/${msg->num}/${msg->uid} |s %>">Delete</a></td>
+ <a href="<% delete/${msg->num}/${msg->uid} |s %>"><button type="button">Delete</button></a></td>
 % ENDIF
 </tr>
 % ENDFOREACH

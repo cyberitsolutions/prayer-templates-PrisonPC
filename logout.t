@@ -5,10 +5,10 @@
 <h2 style="text-align: center">
 Confirm logout from <% $g_service_name |h %> Email Service</h2>
 <div class="confirm">
-<ul>
-<li><a href="<% $cancel |s %>">Cancel</a></li>
-<li class="OK"><a href="<% exit |s %>">Okay</a></li>
-</ul>
+<p style="text-align: center">
+<a href="<% $cancel |s %>"><button type="button">Cancel</button></a>
+<a href="<% exit |s %>"><button type="button">Logout</button></a>
+</p>
 % IFDEF $g_have_draft
 <br style="clear:both;" />
 <table>

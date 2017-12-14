@@ -4,10 +4,10 @@
 % CALL container_start
 <h2 style="text-align: center">Confirm <% $type |h %> deletion: "<% ${name|7} |h %>"</h2>
 <div class="confirm">
-<ul>
-<li><a href="<% folders |s %>">Cancel</a></li>
-<li class="OK"><a href="<% rm1/$type/${name|c} |s %>">Okay</a></li>
-</ul>
+<p style="text-align: center">
+<a href="<% folders |s %>"><button type="button">Cancel</button></a>
+<a href="<% rm1/$type/${name|c} |s %>"><button type="button">Okay</button></a>
+</p>
 </div>
 % CALL container_end
 % CALL footer

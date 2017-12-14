@@ -9,6 +9,18 @@
  enctype="multipart/form-data" action="<% prefs |s %>">
 <div>
 <input type="hidden" name="type" value="display" />
+
+%# Display text/html sections inline
+<input type="hidden" name="html_inline" value="1" />
+%# Display text/* sections starting "<html>" inline
+<input type="hidden" name="html_inline_auto" value="1" />
+%# Display remote images in HTML e-mail
+<input type="hidden" name="html_remote_images" value="1" />
+%# Preserve MIME type when downloading attachments
+<input type="hidden" name="preserve_mimetype" value="1" />
+%# Alt Addresses:
+<input type="hidden" name="alt_addr" value="" />
+
 <table>
 <tr>
 <td><input type="checkbox" name="use_icons" value="1"
@@ -25,38 +37,6 @@
 % ENDIF
 /></td>
 <td>Duplicate icons below message</td>
-</tr>
-<tr>
-<td><input type="checkbox" name="html_inline" value="1"
-% IFDEF $html_inline
- checked="checked"
-% ENDIF
-/></td>
-<td>Display text/html sections inline. </td>
-</tr>
-<tr>
-<td><input type="checkbox" name="html_inline_auto" value="1"
-% IFDEF $html_inline_auto
- checked="checked"
-% ENDIF
-/></td>
-<td>Display text/* sections starting &lt;html&gt; inline</td>
-</tr>
-<tr>
-<td><input type="checkbox" name="html_remote_images" value="1"
-% IFDEF $html_remote_images
- checked="checked"
-% ENDIF
-/></td>
-<td>Display remote images in HTML e-mail</td>
-</tr>
-<tr>
-<td><input type="checkbox" name="preserve_mimetype" value="1"
-% IFDEF $preserve_mimetype
- checked="checked"
-% ENDIF
-/></td>
-<td>Preserve MIME type when downloading attachments</td>
 </tr>
 <tr>
 <td><input type="checkbox" name="use_unread" value="1"
@@ -77,10 +57,6 @@
 <tr>
 <td>Addressbook entries per page:</td>
 <td><input name="abook_per_page" value="<% $abook_per_page |h %>" size="5" /></td>
-</tr>
-<tr>
-<td>Alt Addresses:</td>
-<td><input name="alt_addr" value="<% $alt_addr |h %>" size="40" /></td>
 </tr>
 </table>
 <br />

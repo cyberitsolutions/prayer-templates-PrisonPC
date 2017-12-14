@@ -8,8 +8,9 @@
 %   CALL status
 %   CALL compose_small_top
 <div>
-<textarea name="body" cols="<% $small_cols |h %>"
- rows="<% $small_rows |h %>"><% $body |h %></textarea>
+%# NOTE: compose area default size is now hard-coded here
+%# (132x25 - the same as a "wide" terminal)
+<textarea name="body" cols="132" rows="25" style="max-width:100%"><% $body |h %></textarea>
 </div>
 <table cellspacing="0" cellpadding="0"><tr>
 <td><input type="submit" name="sub_spell" value="Check Spelling" /></td>

@@ -21,7 +21,6 @@
 <form method="post" accept-charset="UTF-8"
  enctype="multipart/form-data" action="<% reply1 |s %>">
 <div>
-<input type="submit" name="cancel" value="Cancel" />
 <input type="submit" name="single" value="Reply to sender only" />
 <input type="submit" name="all" value="Reply to sender and all recipients" />
 </div>

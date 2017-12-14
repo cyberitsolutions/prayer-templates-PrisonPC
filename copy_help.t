@@ -74,9 +74,6 @@ to show the status of the message as deleted.
 
 <table>
 <tr>
-<td valign="top"><i>Cancel</i></td>
-<td>returns you to the message display page, without saving
-the message into any folder.</td></tr>
 <tr>
  <td valign="top"><i>Refresh</i></td>
  <td> checks the contents of the directory on the server.</td>

@@ -24,7 +24,6 @@
 <td>Line Wrap on Send</td>
 % ENDIF
 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td><input type="submit" name="sub_cancel" value="Cancel" /></td>
 <td><input type="submit" name="sub_postpone" value="Postpone" /></td>
 <td><input type="submit" name="sub_send" value="Send" /></td>
 %# ALWAYS save a copy (FCC) to "sent-mail" folder.

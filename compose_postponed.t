@@ -27,7 +27,6 @@
 <hr />
 <form method="get" accept-charset="UTF-8" action="<% compose |s %>">
 <div>
-<input type="submit" name="postponed_cancel" value="Cancel" />
 <input type="submit" name="postponed_fresh" value="Compose a fresh message" />
 </div>
 </form>

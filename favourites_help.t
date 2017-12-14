@@ -13,11 +13,6 @@ available on the <i>Message List</i> screen.</p>
 
 <table>
 <tr>
-<td><i>Cancel</i></td> 
-<td> returns you to the main <i>Mail Folder</i> screen,
-     and no actions are taken.</td>
-</tr>
-<tr>
 <td><i>Refresh</i></td>
 <td>checks the contents of the directory on the server.</td>
 </tr>
@@ -51,8 +46,6 @@ the following:-</p>
 
 <table style="width: 100%"><tr class="t_banner">
 <td align="right"><table><tr>
-<td><a href="#Select">Cancel</a></td>
-<td>|</td>
 <td><a href="#Select">Refresh</a></td>
 </tr></table></td></tr></table>
 
@@ -117,8 +110,6 @@ test-folder</td>
 </tr>
 </table>
 <table style="width: 100%"><tr class="t_banner"><td align="right"><table><tr>
-<td><a href="#Select">Cancel</a></td>
-<td>|</td>
 <td><a href="#Select">Refresh</a></td>
 </tr></table></td></tr></table>
 

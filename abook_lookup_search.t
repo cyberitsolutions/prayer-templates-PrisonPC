@@ -4,9 +4,6 @@
 <tr><td class="nav_l">
 <form method="post" accept-charset="UTF-8"
  enctype="multipart/form-data" action="<% abook_lookup |s %>">
-<div>
- <input type="submit" name="sub_cancel" value="Cancel Search" />
-</div>
 </form>
 </td>
 <td class="nav_r">

@@ -10,8 +10,6 @@ addressbook.</p>
 <ul>
 <li>To create an entry complete the fields and then select
 <i>Add entry</i></li>
-<li>To return to the Email screen from whence you came, making no
-changes to your address book, select the <i>Cancel</i> button</li>
 </ul>
 
 <h2>The address book form fields</h2>

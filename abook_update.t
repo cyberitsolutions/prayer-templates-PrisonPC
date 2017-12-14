@@ -29,7 +29,6 @@
 </tr>
 </table>
 <table><tr>
-<td><input type="submit" name="sub_cancel" value="Cancel" /></td>
 <td><input type="submit" name="sub_delete" value="Delete entry" /></td>
 <td><input type="submit" name="sub_update" value="Add/Update entry" /></td>
 </tr></table>

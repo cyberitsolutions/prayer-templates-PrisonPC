@@ -8,8 +8,6 @@
 the <i>Add entry</i> or <i>Add/Update entry</i> button as 
 relevant; </li>
 <li>To delete an entry select the <i>Delete entry</i> button;</li>
-<li>To return to the Email screen from whence you came, making no
-changes to your address book, select the <i>Cancel</i> button</li>
 </ul>
 
 <h2>The address book form fields</h2>
@@ -53,7 +51,6 @@ changes to your address book, select the <i>Cancel</i> button</li>
           </tr>
           </table>
           <table><tr>
-           <td><input type="submit" name="sub_cancel" value="Cancel" /></td>
             <td><input type="submit" name="sub_cancel" value="Delete Entry" /></td>
              <td><input type="submit" name="sub_add" value="Add/Update entry" /></td>
              </tr></table>

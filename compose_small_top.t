@@ -18,11 +18,6 @@
 <br />
 <table cellspacing="0" cellpadding="0">
 <tr>
-<td><input type="submit" name="sub_clear_headers" value="Clear Headers" /></td>
-<td><input type="submit" name="sub_clear_body" value="Clear Body" /></td>
-<td><input type="submit" name="sub_undo" value="Undo" /></td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td><input type="submit" name="sub_import" value="Import" /></td>
 <td><input type="submit" name="sub_attachments"
      value="Attachments (<% $att_count |n %>)" /></td>
 </tr></table>

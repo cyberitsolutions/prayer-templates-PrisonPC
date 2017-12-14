@@ -18,8 +18,7 @@ use just that entry.</li>
 
 <p>The search dialogue allows you to make another search. It works in
 exactly the same way as the search dialogue on the main addressbook
-screen. <i>Cancel search</i> will cancel the current addressbook search and
-return you to the addressbook screen.</p>
+screen.</p>
 
 <p><i>Search <% $g_service_name |h %> Users</i> searches for local users on the
 <% $g_service_name |h %> system. The search is made against the initial registered name

@@ -27,8 +27,6 @@
 </tr><tr>
 <td><input name="remove" value="" size="32" /></td>
 <td><input type="submit" name="sub_remove" value="Remove" /></td>
-</tr><tr>
-<td><input type="submit" name="sub_cancel" value="Back to Options Screen" /></td>
 </tr></table></form>
 % IFDEF $g_help
 %   CALL dictionary_help

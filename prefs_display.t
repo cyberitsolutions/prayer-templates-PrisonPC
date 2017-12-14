@@ -61,12 +61,8 @@
 </table>
 <br />
 <table><tr>
-<td><input type="submit" name="sub_cancel"
-           value="Cancel" /></td>
-<td><input type="submit" name="sub_change"
-           value="Change for this session" /></td>
 <td><input type="submit" name="sub_save"
-           value="Change for this and future sessions" /></td>
+           value="Save" /></td>
 </tr></table>
 </div>
 </form>

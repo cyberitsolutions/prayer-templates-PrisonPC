@@ -47,15 +47,6 @@ These are described at the bottom of this page.</p>
 </li>
 <li>Above the message body part:
  <ul>
-  <li><i>Clear Headers</i> - Clears all message headers. </li>
-  <li><i>Clear Body</i> - Clears all text entered in the body of 
-      the message. </li>
-  <li><i>Undo</i> - Undoes the last action.</li>
-  <li><i>Import</i> - takes you to a screen from which you can browse
-      your local file system and choose a text file to include in the body of
-      the message.  Files produced by an application such as a word 
-      processor cannot be included in the body of a message, but should be 
-      attached to the message using the <i>Attachments</i> button.</li>
   <li><i>Attachments (0)</i> - takes you to a screen from which you
       can browse your local file system and choose a file to send
       as an attachment to the message. Once you have done this
@@ -75,13 +66,6 @@ These are described at the bottom of this page.</p>
           Spell Check finished (0 changes made)</td>
          </tr></table>
          </li>
-  <li><i>Cancel</i> - cancels the message and returns you to the
-         Email page you came from.
-      The status line will change to reflect the action:-
-        <table><tr class="t_status">
-        <td align="left"><b>Status:</b>Draft message cancelled</td>
-        </tr></table>
-      </li>
   <li><i>Postpone</i> - the draft is saved to the mail
        folder defined to hold these messages
        (default <i>postponed-messages</i>)

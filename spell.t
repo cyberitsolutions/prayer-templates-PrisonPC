@@ -7,7 +7,6 @@
 <h2 style="text-align: center">Spell Check</h2>
 <form method="get" accept-charset="UTF-8" action="<% spell |s %>">
 <table><tr>
-<td><input type="submit" name="cancel" value="Cancel" /></td>
 % IFDEF $have_changes
 <td><input type="submit" name="apply" value="Apply changes to date" /></td>
 % ENDIF

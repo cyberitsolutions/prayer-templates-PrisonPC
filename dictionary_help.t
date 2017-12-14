@@ -21,6 +21,4 @@ by the spell checker.   Spelling is case sensitive.</p>
      <li> or select the relevant word in the listing.</li>
      </ul>
 </li>
-<li> <i>Back to Options Screen</i> returns you to the main <i>Account Management</i> screen,
-and no changes are made to your dictionary.</li>
 </ul>

@@ -3,8 +3,6 @@
 <table class="banner">
 <tr>
 <td class="nav_r">
-<a href="<% folders |s %>">
-Cancel</a>&nbsp;|&nbsp;\
 <a href="<% dir_check/sizes |s %>">
 Refresh</a>
 </td></tr></table>

@@ -75,7 +75,6 @@ of the following conditions hold
 % ENDFOREACH
 </table>
 <table><tr>
-<td><input type="submit" name="sub_cancel" value="Cancel" /></td>
 <td><input type="submit" name="sub_search" value="Search" /></td>
 <td><input type="submit" name="sub_add_cond" value="Add Condition" /></td>
 </tr></table>

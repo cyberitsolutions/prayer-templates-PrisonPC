@@ -8,8 +8,6 @@ sender and any other recipients of the message</p>
 <h2>Reply Options</h2>
 
 <ul>
-<li><i>Cancel</i>  returns you to the Email page from
-      whence you came.  </li>
 <li><i>Reply to sender only</i> prepares a reply that will only
 go to the original sender.</li>
 <li><i>Reply to sender and all recipients</i> prepares a reply that will

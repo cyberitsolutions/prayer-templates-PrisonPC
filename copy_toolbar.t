@@ -9,8 +9,6 @@
 % CALL folderlist_select
 </td>
 <td class="nav_r">
-<a href="<% $copy_parent_cmd |s %>">
-Cancel</a>&nbsp;|&nbsp;\
 <a href="<% dir_check/copy |s %>">
 Refresh</a>
 </td></tr></table>

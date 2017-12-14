@@ -5,29 +5,16 @@
 % CALL container_start
 % CALL status
 <h2 style="text-align: center">Addressbook Transfer</h2>
+<p>
 <form method="post" action="<% abook_xfer/import |s %>"
- enctype="multipart/form-data">
-<table><tr>
-<td>File:</td>
-<td>
-<input size="40" type="file" name="file" />
-<input type="submit" value="Import Addressbook" /></td>
-</tr></table>
+      enctype="multipart/form-data">
+<input type="submit" value="Import Addressbook" />
+<input type="file" name="file" accept=".csv" />
 </form>
-<br />
-<ul>
-<li><a href="<% abook_list |s %>">Cancel (back to addressbook screen)</a></li>
-<li><a href="<% abook_xfer/export_csv/addressbook |S %>">
-Export CSV (Outlook) addressbook</a></li>
-<li><a href="<% abook_xfer/export/addressbook |S %>">
-Export PINE addressbook</a></li>
-% IFDEF $local_pine_abook
-<li><a href="<% abook_import |s %>">
-Import from <% $g_service_name |h %> Pine addressbook</a></li>
-<li><a href="<% abook_export |s %>">
-Export to <% $g_service_name |h %> Pine addressbook</a></li>
-% ENDIF
-</ul>
+</p>
+<p>
+<a href="<% abook_xfer/export_csv/addressbook |S %>"><button type=button>Export Addressbook</button></a>
+</p>
 % IFDEF $g_help
 %   CALL abook_transfer_help
 % ENDIF

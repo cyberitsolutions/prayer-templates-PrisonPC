@@ -1,1 +1,1 @@
-prefs_compose2.t
+prefs_compose.t

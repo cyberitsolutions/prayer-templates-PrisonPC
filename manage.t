@@ -4,17 +4,19 @@
 % CALL toolbar
 % CALL container_start
 % CALL status
-<div id="sub-brand">
-    <p class="section">Account management</p>
-</div>
-<ul style="margin: 1em 0 0 1em;">
-  <li>Email Preferences
-    <ul>
-      <li><a href="<% prefs |s %>">Preferences</a></li>
-      <li><a href="<% dictionary |s %>">Personal dictionary</a></li>
-    </ul>
-  </li>
-</ul>
+<h2 style="text-align: center">Preferences</h2>
+
+%# NOTE: this form is a kludge to go straight to prefs_display.t,
+%#       instead of the default which is prefs_general.t. —twb, Dec 2017
+
+<form action="<% prefs |s %>"
+      method="post"
+      accept-charset="UTF-8"
+      enctype="multipart/form-data"
+      style="display:inline-block">
+  <input type="submit" name="sub_display" value="Display Preferences" />
+</form>
+<a href="<% dictionary |s %>"><button type="button">Personal dictionary</button></a>
 % IFDEF $g_help
 %   CALL manage_help
 % ENDIF

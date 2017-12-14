@@ -4,21 +4,11 @@
 % CALL toolbar
 % CALL container_start
 % CALL status
-<h2 style="text-align: center">Preferences</h2>
+<h2 style="text-align: center">Display Preferences</h2>
 <form method="post" accept-charset="UTF-8"
  enctype="multipart/form-data" action="<% prefs |s %>">
 <div>
-<table id="prefs-tabbed">
-<tr>
-<td><input type="submit" name="sub_general" value="General" /></td>
-<td class="active"><input type="submit" name="sub_display" value="Display" /></td>
-<td><input type="submit" name="sub_compose1" value="Compose" /></td>
-<td><input type="submit" name="sub_compose2" value="Extra Compose" /></td>
-<td><input type="submit" name="sub_folder" value="Folder" /></td>
-</tr>
-</table>
 <input type="hidden" name="type" value="display" />
-<h3>Display Preferences:</h3>
 <table>
 <tr>
 <td><input type="checkbox" name="use_icons" value="1"

@@ -14,13 +14,11 @@
  <img src="<% blank |i %>" alt="<% $g_alt_pad |n %>" />
 %   ENDLOOP
 %   IFDEF $f->haschildren
- <a href="<% ${cmd}/toggle/${f->name|c} |s %>">
 %     IFDEF $f->expanded
- <img src="<% down |i %>" alt="<% $g_alt_pad |n %>" />
+ <a href="<% ${cmd}/toggle/${f->name|c} |s %>"><img src="<% down |i %>" alt="<% $g_alt_pad |n %>" /></a>
 %     ELSE
- <img src="<% right |i %>" alt="<% $g_alt_pad |n %>" />
+ <a href="<% ${cmd}/toggle/${f->name|c} |s %>"><img src="<% right |i %>" alt="<% $g_alt_pad |n %>" /></a>
 %     ENDIF
-</a>
 %   ELSE
  <img src="<% blank |i %>" alt="<% $g_alt_pad |n %>" />
 %   ENDIF

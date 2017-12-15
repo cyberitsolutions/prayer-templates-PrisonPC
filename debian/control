@@ -7,6 +7,7 @@ Uploaders:
  Trent W. Buck <trentbuck@gmail.com>
 Build-Depends:
  debhelper (>= 10),
+ librsvg2-bin,
  prayer-templates-dev
 Standards-Version: 3.9.6
 

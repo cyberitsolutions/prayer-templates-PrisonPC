@@ -1,0 +1,20 @@
+#!/bin/sh -e
+
+# Prayer can't serve WOFF/EOT/SVG icons with the correct Content-Type, so
+# we must convert them to PNG.
+# UPDATE: they actually have to end in .gif, but they can _be_ PNGs.
+#
+# While we're at it, use the Tango palette, not plain black (#000000).
+
+for i in *.svg
+do
+    sed '1s/fill="#000000"/fill="#2E3436"/' "$i" |
+    rsvg-convert -f png >"${i%_black_*px.svg}.gif"
+done
+
+# A subset of prayer icons need a "greyed out" version.
+for i in *_chevron_*.svg *_page_*.svg
+do
+    sed '1s/fill="#000000"/fill="#BABDB6"/' "$i" |
+    rsvg-convert -f png >"${i%_black_*px.svg}_inactive.gif"
+done

@@ -54,14 +54,14 @@ directory, you need to be aware that different mail clients default to
 looking in different places.</p>
 
 <ul>
-<li> The Folder icon <img src="<% dir |i %>" alt="mailbox " /> 
+<li> The Folder icon <img src="<% ic_folder |i %>" alt="mailbox " /> 
  indicates that the line refers to a mail folder and
  also shows the name of the folder and actions that can be performed on
  that folder, for example:-
  <table style="width: 100%">
  <tr class="t_even_row">
  <td style="width: 50%"><a href="#List">
-<img src="<% dir |i %>" alt="[mailbox]" /></a>
+<img src="<% ic_folder |i %>" alt="[mailbox]" /></a>
 <a href="#List">saved-messages</a></td>
 <td><a href="#List">Rename</a></td>
 <td><a href="#List">Delete</a></td>
@@ -89,13 +89,13 @@ looking in different places.</p>
   </ul>
 </li>
 <li> The <i>Right arrow</i> 
-   <img src="<% right |i %>" alt="[dir]" />
+   <img src="<% ic_chevron_right |i %>" alt="[dir]" />
   indicates that the line refers to a directory,
   and shows the name of the directory and the actions that can be
   performed, for example:-
  <table style="width: 100%">
  <tr class="t_even_row">
- <td style="width: 50%"><a href="#List"><img src="<% right |i %>" alt="[directory]" /></a><a href="#List">testdir</a></td>
+ <td style="width: 50%"><a href="#List"><img src="<% ic_chevron_right |i %>" alt="[directory]" /></a><a href="#List">testdir</a></td>
 <td><a href="#List">Rename</a></td>
 <td><a href="#List">Delete</a></td>
  </tr>

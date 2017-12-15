@@ -8,7 +8,7 @@
 %   IFDEF $msg->is_marked
 <td align="right"><a href="<% unmark/${msg->num}/${msg->uid} |s %>">\
 %     IFDEF $g_use_icons
-  <img src="<% on |i %>" alt="Yes" />
+  <img src="<% ic_check_box |i %>" alt="Yes" />
 %     ELSE
 Yes\
 %     ENDIF
@@ -16,7 +16,7 @@ Yes\
 %  ELSE
 <td><a href="<% mark/${msg->num}/${msg->uid} |s %>">\
 %     IFDEF $g_use_icons
-  <img src="<% off |i %>" alt="No" />
+  <img src="<% ic_check_box_outline_blank |i %>" alt="No" />
 %     ELSE
 No\
 %     ENDIF
@@ -32,15 +32,15 @@ No\
 % ENDIF
 % IFDEF $g_use_icons
 %   IFDEF $msg->is_deleted
-<td align="center"><img src="<% msg-deleted |i %>" alt="" /></td>
+<td align="center"><img src="<% ic_delete |i %>" alt="" /></td>
 %   ELSE
 %     IFDEF $msg->is_answered
-<td align="center"><img src="<% msg-answered |i %>" alt="" /></td>
+<td align="center"><img src="<% ic_reply |i %>" alt="" /></td>
 %     ELSE
 %       IFDEF $msg->is_seen
-<td align="center"><img src="<% msg-seen |i %>" alt="" /></td>
+<td align="center"><img src="<% ic_mail |i %>" alt="" /></td>
 %       ELSE
-<td align="center"><img src="<% msg-unseen |i %>" alt="" /></td>
+<td align="center"><img src="<% ic_mail_outline |i %>" alt="" /></td>
 %       ENDIF
 %     ENDIF
 %   ENDIF
@@ -73,7 +73,7 @@ No\
 </td>
 <td>
 %   IFDEF $msg->has_attach
-<img src="<% paperclip-small |i %>" alt="" />
+<img src="<% ic_attach_file |i %>" alt="" />
 %   ENDIF
  <a href="<% display/${msg->num}/${msg->uid} |s %>"><% $msg->full_subject |h %>
 </a></td>

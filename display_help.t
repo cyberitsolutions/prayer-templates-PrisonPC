@@ -8,8 +8,8 @@ the use of any icons in the Email interface) using options found in
 
 <table style="width: 100%">
 <tr>
- <td valign="top"><img src="<% left |i %>" alt="Prev" />
-     <img src="<% right |i %>" alt="Next" />
+ <td valign="top"><img src="<% ic_chevron_left |i %>" alt="Prev" />
+     <img src="<% ic_chevron_right |i %>" alt="Next" />
  </td>
  <td><i>Previous</i> and <i>Next</i> take you to, respectively, 
      the previous and next message.   The relevant icon is greyed out,
@@ -71,7 +71,7 @@ any attachments:</p>
 </li>
 <li>
 <a href="#Attach">
-  <img src="<% paperclip-small |i %>" alt="[paperclip]" /></a>
+  <img src="<% ic_attach_file |i %>" alt="[paperclip]" /></a>
 <a href="#Attach">MyDocument.rtf (application/octet-stream), 3 K</a>
 </li>
 </ol>
@@ -79,7 +79,7 @@ any attachments:</p>
 
 <p>In this example part <i>1.</i> is the text body of the message and
 part <i>2.</i> the attachment (indicated by the small paperclip icon
- <img src="<% paperclip-small |i %>" alt="[paperclip]" />).
+ <img src="<% ic_attach_file |i %>" alt="[paperclip]" />).
 To save the attachment select the link 
 containing the attachment name and use your  browser's "Save" feature to
 navigate to where you wish to put the attachment on your local machine.

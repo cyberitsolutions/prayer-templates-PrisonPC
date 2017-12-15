@@ -2,25 +2,25 @@
 %#
 % IFDEF $nav->first_msg
 <a href="<% list/${nav->first_msg}/${nav->first_uid} |s %>">
- <img src="<% leftleft |i %>" alt="First" /></a>
+ <img src="<% ic_first_page |i %>" alt="First" /></a>
 % ELSE
-<img src="<% leftleft-inactive |i %>" alt="First" />
+<img src="<% ic_first_page_inactive |i %>" alt="First" />
 % ENDIF
 % IFDEF $nav->prev_msg
 <a href="<% list/${nav->prev_msg}/${nav->prev_uid} |s %>">
- <img src="<% left |i %>" alt="Previous" /></a>
+ <img src="<% ic_chevron_left |i %>" alt="Previous" /></a>
 % ELSE
-<img src="<% left-inactive  |i %>" alt="Previous" />
+<img src="<% ic_chevron_left_inactive  |i %>" alt="Previous" />
 % ENDIF
 % IFDEF $nav->next_msg
 <a href="<% list/${nav->next_msg}/${nav->next_uid} |s %>">
- <img src="<% right |i %>" alt="Next" /></a>
+ <img src="<% ic_chevron_right |i %>" alt="Next" /></a>
 % ELSE
-<img src="<% right-inactive |i %>" alt="Next" />
+<img src="<% ic_chevron_right_inactive |i %>" alt="Next" />
 % ENDIF
 % IFDEF $nav->last_msg
 <a href="<% list/${nav->last_msg}/${nav->last_uid} |s %>">
- <img src="<% rightright |i %>" alt="Last" /></a>
+ <img src="<% ic_last_page |i %>" alt="Last" /></a>
 % ELSE
-<img src="<% rightright-inactive |i %>" alt="Last" />
+<img src="<% ic_last_page_inactive |i %>" alt="Last" />
 % ENDIF

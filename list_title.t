@@ -9,13 +9,13 @@
 <th align="center">
 % IFDEF $page_all_marked
 %   IFDEF $g_use_icons
-  <a href="<% list/unmark |s %>"><img src="<% off |i %>" alt="None" /></a>
+  <a href="<% list/unmark |s %>"><img src="<% ic_check_box_outline_blank |i %>" alt="None" /></a>
 %   ELSE
   <a href="<% list/unmark |s %>">None</a>
 %   ENDIF
 % ELSE
 %   IFDEF $g_use_icons
-  <a href="<% list/mark |s %>"><img src="<% on |i %>" alt="All" /></a>
+  <a href="<% list/mark |s %>"><img src="<% ic_check_box |i %>" alt="All" /></a>
 %   ELSE
   <a href="<% list/mark |s %>">All</a>
 %   ENDIF
@@ -23,7 +23,7 @@
 </th>
 % IFDEF $g_use_icons
 <th align="center">\
-<img src="<% msg-unseen |i %>" alt="Status" /></th>
+<img src="<% ic_mail_outline |i %>" alt="Status" /></th>
 % ELSE
 <th align="center">D</th>
 <th align="center">N</th>

@@ -2,13 +2,13 @@
 %#
 % IFDEF $nav->prev_msg
 <a href="<% ${g_cmd}/${nav->prev_msg}/${nav->prev_uid} |s %>">
- <img src="<% left |i %>" alt="Previous" /></a>
+ <img src="<% ic_chevron_left |i %>" alt="Previous" /></a>
 % ELSE
-<img src="<% left-inactive  |i %>" alt="Previous" />
+<img src="<% ic_chevron_left_inactive  |i %>" alt="Previous" />
 % ENDIF
 % IFDEF $nav->next_msg
 <a href="<% ${g_cmd}/${nav->next_msg}/${nav->next_uid} |s %>">
- <img src="<% right |i %>" alt="Next" /></a>
+ <img src="<% ic_chevron_right |i %>" alt="Next" /></a>
 % ELSE
-<img src="<% right-inactive |i %>" alt="Next" />
+<img src="<% ic_chevron_right_inactive |i %>" alt="Next" />
 % ENDIF

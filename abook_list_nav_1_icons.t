@@ -2,25 +2,25 @@
 %#
 % IFDEF $nav->first_page
 <a href="<% abook_list/${nav->first_page} |s %>">
- <img src="<% leftleft |i %>" alt="First" /></a>
+ <img src="<% ic_first_page |i %>" alt="First" /></a>
 % ELSE
-<img src="<% leftleft-inactive |i %>" alt="First" />
+<img src="<% ic_first_page_inactive |i %>" alt="First" />
 % ENDIF
 % IFDEF $nav->prev_page
 <a href="<% abook_list/${nav->prev_page} |s %>">
- <img src="<% left |i %>" alt="Previous" /></a>
+ <img src="<% ic_chevron_left |i %>" alt="Previous" /></a>
 % ELSE
-<img src="<% left-inactive  |i %>" alt="Previous" />
+<img src="<% ic_chevron_left_inactive  |i %>" alt="Previous" />
 % ENDIF
 % IFDEF $nav->next_page
 <a href="<% abook_list/${nav->next_page} |s %>">
- <img src="<% right |i %>" alt="Next" /></a>
+ <img src="<% ic_chevron_right |i %>" alt="Next" /></a>
 % ELSE
-<img src="<% right-inactive |i %>" alt="Next" />
+<img src="<% ic_chevron_right_inactive |i %>" alt="Next" />
 % ENDIF
 % IFDEF $nav->last_page
 <a href="<% abook_list/${nav->last_page} |s %>">
- <img src="<% rightright |i %>" alt="Last" /></a>
+ <img src="<% ic_last_page |i %>" alt="Last" /></a>
 % ELSE
-<img src="<% rightright-inactive |i %>" alt="Last" />
+<img src="<% ic_last_page_inactive |i %>" alt="Last" />
 % ENDIF

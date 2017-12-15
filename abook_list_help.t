@@ -72,10 +72,10 @@ the <i>Page:</i> box and then select <i>Go</i>
 <h3>Common elements</h3>
 
 <p>The four icons, 
-<img src="<% leftleft |i %>" alt="First" />
-<img src="<% left |i %>" alt="Previous" />
-<img src="<% right |i %>" alt="Next" />
-<img src="<% rightright |i %>" alt="Last" />,
+<img src="<% ic_first_page |i %>" alt="First" />
+<img src="<% ic_chevron_left |i %>" alt="Previous" />
+<img src="<% ic_chevron_right |i %>" alt="Next" />
+<img src="<% ic_last_page |i %>" alt="Last" />,
 take you to, respectively, the first, previous, next and last page
 of addresses.   An icon is greyed out, as in the example screen on this 
 page, if the choice is not applicable (in the example there is only

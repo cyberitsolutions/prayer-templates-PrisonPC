@@ -3,8 +3,8 @@
 %#
 % IFEQ $sort_mode $_value
 %   IFDEF $sort_reverse
-<img src="<% sort-d |i %>" alt="" width="9" height="9" />
+<img src="<% ic_expand_more |i %>" alt="" width="9" height="9" />
 %   ELSE
-<img src="<% sort-u |i %>" alt="" width="9" height="9" />
+<img src="<% ic_expand_less |i %>" alt="" width="9" height="9" />
 %   ENDIF
 % ENDIF

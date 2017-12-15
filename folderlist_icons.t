@@ -15,9 +15,9 @@
 %   ENDLOOP
 %   IFDEF $f->haschildren
 %     IFDEF $f->expanded
- <a href="<% ${cmd}/toggle/${f->name|c} |s %>"><img src="<% down |i %>" alt="<% $g_alt_pad |n %>" /></a>
+ <a href="<% ${cmd}/toggle/${f->name|c} |s %>"><img src="<% ic_expand_more |i %>" alt="<% $g_alt_pad |n %>" /></a>
 %     ELSE
- <a href="<% ${cmd}/toggle/${f->name|c} |s %>"><img src="<% right |i %>" alt="<% $g_alt_pad |n %>" /></a>
+ <a href="<% ${cmd}/toggle/${f->name|c} |s %>"><img src="<% ic_chevron_right |i %>" alt="<% $g_alt_pad |n %>" /></a>
 %     ENDIF
 %   ELSE
  <img src="<% blank |i %>" alt="<% $g_alt_pad |n %>" />
@@ -25,14 +25,14 @@
 %   IFDEF ${fcmd}
 %     IFNDEF $f->noselect
  <a href="<% ${fcmd}/${f->name|c} |s %>">
- <img src="<% dir |i %>" alt="[mailbox]" /></a>&nbsp;
+ <img src="<% ic_folder |i %>" alt="[mailbox]" /></a>&nbsp;
  <a href="<% ${fcmd}/${f->name|c} |s %>"><% ${f->short_name|7} |h %></a>
 %     ELSE
  <img src="<% blank |i %>" alt="<% $g_alt_pad |n %>" />
  <% $f->{short_name|7} |h %>
 %     ENDIF
 %   ELSE
- <img src="<% dir |i %>" alt="[mailbox]" />&nbsp;
+ <img src="<% ic_folder |i %>" alt="[mailbox]" />&nbsp;
  <% $f->{short_name|7} |h %>
 %   ENDIF
 </td>

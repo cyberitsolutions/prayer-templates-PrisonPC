@@ -9,7 +9,7 @@
 <li>If the folder exists, and you can see it, 
     then <a name="List">select</a> the name of the chosen mail folder, 
     or the folder icon by its name.</li>
-<li>Use <img src="<% right |i %>" alt="[Expand]" /> to
+<li>Use <img src="<% ic_chevron_right |i %>" alt="[Expand]" /> to
   expand collapsed directories.</li>
 <li>If the folder does not exist you will need to create it.
     <ul>
@@ -44,9 +44,9 @@ the original copy is now marked as deleted, for example:-</p>
 <td><table>
     <tr>
     <td>
-      <a href="#List"><img src="<% left |i %>" alt="Previous" /></a>
+      <a href="#List"><img src="<% ic_chevron_left |i %>" alt="Previous" /></a>
      </td>
-    <td><img src="<% right-inactive |i %>" alt="Next" /></td>
+    <td><img src="<% ic_chevron_right_inactive |i %>" alt="Next" /></td>
     <td>|</td>
     <td><a href="#List">Copy</a></td>
     <td>|</td>

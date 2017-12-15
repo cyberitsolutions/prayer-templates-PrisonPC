@@ -46,20 +46,20 @@ of each row:-</p>
 
 <table>
 <tr>
- <td><img src="<% leftleft |i %>" alt="First" /></td>
+ <td><img src="<% ic_first_page |i %>" alt="First" /></td>
  <td><i>First</i> displays the first page of messages in the mail
       folder.</td>
 </tr>
 <tr>
- <td><img src="<% left |i %>" alt="Previous" /></td>
+ <td><img src="<% ic_chevron_left |i %>" alt="Previous" /></td>
  <td><i>Previous</i> displays the previous page of messages.</td>
 </tr>
 <tr>
- <td><img src="<% right |i %>" alt="Next" /> </td>
+ <td><img src="<% ic_chevron_right |i %>" alt="Next" /> </td>
  <td><i>Next</i> displays the next page of messages. </td>
 </tr>
 <tr>
- <td><img src="<% rightright |i %>" alt="Last" /></td>
+ <td><img src="<% ic_last_page |i %>" alt="Last" /></td>
  <td><i>Last</i> displays the last page of messages.</td>
 </tr>
 <tr>
@@ -159,23 +159,23 @@ of each row:-</p>
   Marking a message changes the icon in this column.
    </td></tr></table>
 </li>
-<li> <img src="<% msg-unseen |i %>" alt="Unseen" /> 
+<li> <img src="<% ic_mail_outline |i %>" alt="Unseen" /> 
      (<i>Message status</i>)
   <table>
   <tr>
-   <td>   <img src="<% msg-unseen |i %>" alt="Unseen" /> </td>
+   <td>   <img src="<% ic_mail_outline |i %>" alt="Unseen" /> </td>
    <td> Unread messages. </td>
   </tr>
   <tr>
-   <td> <img src="<% msg-seen |i %>" alt="Seen" /> </td>
+   <td> <img src="<% ic_mail |i %>" alt="Seen" /> </td>
    <td>  Read messages. </td>
   </tr>
   <tr>
-   <td> <img src="<% msg-answered |i %>" alt="Answered" /> </td>
+   <td> <img src="<% ic_reply |i %>" alt="Answered" /> </td>
    <td> Message that have been replied to.</td>
   </tr>
   <tr>
-   <td valign="top"> <img src="<% msg-deleted |i %>" alt="Deleted" />
+   <td valign="top"> <img src="<% ic_delete |i %>" alt="Deleted" />
     </td>
    <td> Deleted messages.   These are not actually removed from <% $g_service_name |h %>
         until <i>Expunge</i> is selected.  Until then they can be
@@ -230,13 +230,13 @@ shows the changes to the top bar.</p>
 <table>
 <tbody><tr>
 <td>
-<img src="<% leftleft-inactive |i %>" alt="First" /></td>
+<img src="<% ic_first_page_inactive |i %>" alt="First" /></td>
 <td>
 <img src="<% left-inactive |i %>" alt="Previous" /></td>
 <td>
-<img src="<% right-inactive |i %>" alt="Next" /></td>
+<img src="<% ic_chevron_right_inactive |i %>" alt="Next" /></td>
 <td>
-<img src="<% rightright-inactive |i %>" alt="Last" /></td>
+<img src="<% ic_last_page_inactive |i %>" alt="Last" /></td>
 <td>
 <select name="aggregate" size="1">
 <option value="delete">Delete marked</option>

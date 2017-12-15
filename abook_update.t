@@ -25,7 +25,7 @@
 </tr>
 <tr>
 <td>Address(es)</td>
-<td><input name="email" value="<% $email |h %>" size="43" /></td>
+<td><input name="email" value="<% $email |h %>" size="43" type="email" /></td>
 </tr>
 </table>
 <table><tr>

@@ -70,11 +70,11 @@ No\
  <a href="<% display/${msg->num}/${msg->uid} |s %>"><% $msg->full_dname |h %>
 </a></td>
 <td align="right"><% $msg->size |h %>
+</td>
+<td>
 %   IFDEF $msg->has_attach
 <img src="<% paperclip-small |i %>" alt="" />
 %   ENDIF
-</td>
-<td>
  <a href="<% display/${msg->num}/${msg->uid} |s %>"><% $msg->full_subject |h %>
 </a></td>
 <td align="right">

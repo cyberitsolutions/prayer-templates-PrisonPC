@@ -5,7 +5,3 @@
 % ELSE
 <% "$_type, 1 line" |h %></a>
 % ENDIF
-<a href="<% rawdisplay/$_msg/$_uid/$_section/${_type|u}/${_name|u} |S %>">
-Download this text
-</a>
-

@@ -72,14 +72,12 @@ a[href]:hover   { color:#729FCF }
 /* Zebra striping on SOME tables. */
 /* FIXME: in display_hdrs.t, use TH not TD>STRONG */
 /* FIXME: in display_hdrs.t, use class="altrows" */
-table.altrows { empty-cells:show; border-collapse:collapse; width:100%; }
-table.altrows td { padding:0.2em; vertical-align:top; }
+table.altrows { empty-cells:show; border-collapse:collapse; max-width:100%; }
+table.altrows td,
+table.altrows th { padding:0.2em; vertical-align:top; }
 table.altrows tr:nth-child(odd)  { background:#EEEEEC }
 table.altrows tr:nth-child(even) { background:#D3D7CF }
-
-/* FIXME: prayer should use TH not TR.t_title>TD! */
-/* FIXME: prayer should put THs in THEAD, not TBODY! */
-tr.t_title>td {font-weight:bold}
+table.altrows th a[href] {color:inherit;text-decoration:inherit}
 
 /* When an email has multiple MIME attachments, each one is a separate PRE. */
 pre { border:thin solid #BABDB6;background:white;margin:1em;padding:1em; }

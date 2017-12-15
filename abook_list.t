@@ -18,19 +18,16 @@
 <table class="altrows">
 %   CALL abook_list_title
 %
+<tbody>
 %   FOREACH $a @abook
-%   IFDEF $a->even_row
-<tr class="t_even_row">
-%   ELSE
-<tr class="t_odd_row">
-%   ENDIF
-<td><strong><% $a->num |h %>.</strong></td>
-<td><input type="checkbox" name="remove_<% $a->alias |c %>" /></td>
-<td><a href="<% abook_update?alias=${a->alias|u}&name=${a->name|u}&comment=${a->comment|u}&email=${a->email|u} |s %>"><% $a->alias |h %></a></td>
-<td><% $a->name |h %></td>
-<td><% $a->comment |h %></td>
-<td><% $a->email |h %></td>
-<td>
+<tr>
+<td align="left"><strong><% $a->num |h %>.</strong></td>
+<td align="center"><input type="checkbox" name="remove_<% $a->alias |c %>" /></td>
+<td align="left"><a href="<% abook_update?alias=${a->alias|u}&name=${a->name|u}&comment=${a->comment|u}&email=${a->email|u} |s %>"><% $a->alias |h %></a></td>
+<td align="left"><% $a->name |h %></td>
+<td align="left"><% $a->comment |h %></td>
+<td align="left"><% $a->email |h %></td>
+<td align="right">
 %   IFDEF $g_have_draft
 <input type="checkbox" name="to_<% $a->num |n %>" />To
 <input type="checkbox" name="cc_<% $a->num |n %>" />Cc
@@ -40,6 +37,7 @@
 </td>
 </tr>
 %   ENDFOREACH
+</tbody>
 </table>
 <div class="rule"></div>
 %   CALL abook_list_toolbar_bottom

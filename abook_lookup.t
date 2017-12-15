@@ -26,25 +26,28 @@
 </tr></table>
 <div class="rule"></div>
 <table class="altrows">
-<tr class="t_title">
-<td style="width: 3%">#</td>
-<td style="width: 5%">Userid</td>
-<td style="width: 20%">Name (Registered Name)</td>
-<td style="width: 42%">Primary Affiliation</td>
+<thead>
+<tr>
+<th>#</th>
+<th>Userid</th>
+<th>Name (Registered Name)</th>
+<th>Primary Affiliation</th>
 % IFDEF $have_cancelled
-<td style="width: 10%">Cancelled?</td>
+<th style="width: 10%">Cancelled?</th>
 % ENDIF
 % IFDEF $have_phone
-<td style="width: 10%">Phone</td>
+<th style="width: 10%">Phone</th>
 % ENDIF
-<td style="width: 10%">Addressbook</td>
-<td style="width: 10%" align="center">
+<th style="width: 10%">Addressbook</th>
+<th style="width: 10%" align="center">
 % IFDEF $g_have_draft
 <input type="submit" name="sub_add_address" value="Add marked to draft" />
 % ELSE
 &nbsp;
 % ENDIF
-</td></tr>
+</th></tr>
+</thead>
+<tbody>
 % FOREACH $i @list
 %   IFDEF $i->even_row
 <tr class="t_even_row">
@@ -77,6 +80,7 @@
 %   ENDIF
 </tr>
 % ENDFOREACH
+</tbody>
 </table></form>
 <div class="rule"></div>
 <form method="post" accept-charset="UTF-8"

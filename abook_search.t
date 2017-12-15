@@ -85,13 +85,17 @@ of the following conditions hold
 %   ELSE
 <p>1 match for those search criteria:</p>
 %   ENDIF
-<table class="data"><tr>
+<table class="altrows">
+  <thead>
+    <tr>
 <th align="left">Alias</th>
 <th align="left">Name</th>
 <th align="left">Comment</th>
 <th align="left">Address</th>
 <th>&nbsp;</th>
 </tr>
+    </thead>
+  <tbody>
 %   FOREACH $r @results
 <tr>
 <td><a href="<% abook_update?alias=${r->alias|u}&name=${r->name|u}&comment=${r->comment|u}&email=${r->email|u} |s %>"><% $r->alias |h %></a></td>
@@ -111,6 +115,7 @@ of the following conditions hold
 % ENDIF
 </tr>
 %   ENDFOREACH
+</tbody>
 </table>
 % ENDIF
 % IFDEF $g_help

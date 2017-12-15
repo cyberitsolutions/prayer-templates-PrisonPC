@@ -1,9 +1,7 @@
 %# $Cambridge: hermes/src/prayer/templates/cam/copy_help.t,v 1.1 2008/09/16 10:52:45 dpc22 Exp $
 <hr class="helpsep" />
 
-<p>The layout is similar to the main mail folders screen.  If you have
-any <i>Favourite Mail Folders</i> these will be listed between the 
-<i>INBOX</i> and  the main mail folder listing.</p>
+<p>The layout is similar to the main mail folders screen.</p>
 
 <h2>Saving the message</h2>
 

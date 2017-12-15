@@ -11,7 +11,6 @@
 <td class="nav_r">
 <a href="<% dir_check/folders |s %>"><button type="button">Refresh</button></a>
 <a href="<% sizes |s %>"><button type="button">Sizes</button></a>
-<a href="<% favourites |s %>"><button type="button">Favourite Folders</button></a>
 </td>
 </tr></table>
 </form>

@@ -11,11 +11,6 @@
 % ENDIF
 % CALL copy_toolbar
 <div class="rule"></div>
-% IFDEF $g_favourites[0]
-Favourite mail folders:
-% CALL favlist, $cmd => "copy"
-Normal mail folders:
-% ENDIF
 % CALL folderlist, $cmd => "copy"
 %#<div class="rule"></div>
 %# CALL copy_toolbar

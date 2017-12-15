@@ -49,9 +49,7 @@ shortcuts to the main Email functions. </p>
 <td>Select this to see a listing of your mail folders.
     You can select a different mail folder to view or you can 
     create, rename or delete mail folders and directories.
-    You can also choose some of your mail folders to be "favourites", which
-    will give you quick access to these folders, or you can transfer mail 
-    folders between <% $g_service_name |h %> and your local system.</td>
+</td>
 </tr>
 <tr>
 <td valign="top">

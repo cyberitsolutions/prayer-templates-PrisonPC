@@ -42,17 +42,6 @@ Mailboxes can be created under existing directories.
   <td valign="top"><i>Sizes</i></td>
   <td>shows you the size of each mailbox on the system</td>
 </tr>
-<tr>
- <td valign="top"><i>Favourite Folders</i></td>
- <td>  displays a screen where you can choose a folder, or folders, 
-       to be added to a list of favourite mail folders.  This
-       list appears in the pull-down listing in the common toolbar,
-       replacing the list of default folders.
-       Once you have one or more <i>Favourite mail folders</i> an  expanded
-       set of actions becomes available.  These are described on
-       the help page associated with the Favourites selection screen.
- </td>
-</tr>
 </table>
 
 <h2> <a name="List">The folder listing</a> </h2>

@@ -61,7 +61,11 @@ No\
 <td align="center">&nbsp;</td>
 %   ENDIF
 % ENDIF
-<td align="left"><% $msg->date |h %></td>
+%# NOTE: nowrap makes when the table is too wide,
+%#       the browser will shrink the from/subject columns.
+%#       Without this, the date column shrinks,
+%#       making ALL rows require a second line.
+<td align="left" style="white-space:nowrap"><% $msg->date |h %></td>
 <td>
  <a href="<% display/${msg->num}/${msg->uid} |s %>"><% $msg->full_dname |h %>
 </a></td>

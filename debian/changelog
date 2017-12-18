@@ -1,6 +1,6 @@
-prayer-templates-prisonpc (0.2jessie1) UNRELEASED; urgency=low
+prayer-templates-prisonpc (0.2jessie1) jessie; urgency=low
 
   * Initial release.
     (See git for real change history.)
 
- -- Trent W. Buck <trentbuck@gmail.com>  Tue, 12 Dec 2017 17:49:58 +1100
+ -- Trent W. Buck <trentbuck@gmail.com>  Mon, 18 Dec 2017 11:29:25 +1100

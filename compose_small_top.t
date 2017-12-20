@@ -1,4 +1,5 @@
 %# $Cambridge: hermes/src/prayer/templates/cam/compose_small_top.t,v 1.3 2008/09/16 16:38:09 dpc22 Exp $
+%# FIXME: Consider <input type=email multiple> — https://html.spec.whatwg.org/multipage/input.html#e-mail-state-(type=email)
 <table cellspacing="0" cellpadding="0" id="compose_table">
 <tr>
 <td class="highlight">To:</td>

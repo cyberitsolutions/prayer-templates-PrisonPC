@@ -25,10 +25,7 @@ The parts (fields) that can be chosen are:</p>
     messages with Cc:, To:, or From: headers containing the string will
     be selected. </li>
 <li><i>Subject</i></li>
-<li><i>Text (Expensive!)</i> - 
-    this searches all the body text.  
-    Please avoid this wherever possible. It puts a heavy strain on 
-    <% $g_service_name |h %>.</li>
+<li><i>Text</i> - this searches all the body text.</li>
 </ul>
 
 <p> Your string does not have to be a complete word or phrase.  

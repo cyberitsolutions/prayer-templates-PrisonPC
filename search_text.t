@@ -19,7 +19,7 @@
 % ENDIF
 <option value="participant">Participant</option>
 <option value="subject">Subject</option>
-<option value="text">Text (Expensive!)</option>
+<option value="text">Text</option>
 </select>
 </td><td>
 <select name="text_op" size="1">

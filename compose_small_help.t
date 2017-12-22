@@ -69,11 +69,6 @@ These are described at the bottom of this page.</p>
       postponed message or start a new one.</li>
   <li><i>Send</i> - triggers an immediate send and returns
       you to the Email page you came from.</li>
-  <li><i>Save copy</i> - This check box controls
-      whether a copy is automatically saved.  The default for this,
-      saving a copy to <i>sent-mail</i>, is set in 
-      <i>Manage -&gt; Preferences -&gt; Extra Compose</i>.
-      </li>
   </ul>
 </li>
 </ul>

@@ -56,16 +56,6 @@ These are described at the bottom of this page.</p>
 </li>
 <li>Below the message  body part:-
   <ul>
-  <li><i> Check Spelling</i> - this will check the body of the message
-         and allow you to accept suggested alterations, leave the word 
-         unchanged or add the word to your personal dictionary. Once the 
-         spell check has completed the status field will summarise, for
-         example:-
-         <table><tr class="t_status">
-         <td align="left"><b>Status:</b>
-          Spell Check finished (0 changes made)</td>
-         </tr></table>
-         </li>
   <li><i>Postpone</i> - the draft is saved to the mail
        folder defined to hold these messages
        (default <i>postponed-messages</i>)

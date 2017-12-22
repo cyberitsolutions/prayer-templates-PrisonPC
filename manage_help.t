@@ -33,9 +33,6 @@ own specific help page.  The categories are:-</p>
            actions on, mail folders.</li>
       </ul>
     </li>
-    <li><i>Personal Dictionary</i> to which you can
-    add words you commonly use that are not in the system
-    dictionary.</li>
   </ul> 
 </li>
 </ul>

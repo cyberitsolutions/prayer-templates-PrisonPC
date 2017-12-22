@@ -16,7 +16,6 @@
       style="display:inline-block">
   <input type="submit" name="sub_display" value="Display Preferences" />
 </form>
-<a href="<% dictionary |s %>"><button type="button">Personal dictionary</button></a>
 % IFDEF $g_help
 %   CALL manage_help
 % ENDIF

@@ -12,7 +12,6 @@
 %# (132x25 - the same as a "wide" terminal)
 <textarea name="body" cols="132" rows="25" style="max-width:100%"><% $body |h %></textarea>
 </p>
-<input type="submit" name="sub_spell" value="Check Spelling" />
 <input type="submit" name="sub_postpone" value="Postpone" />
 <input type="submit" name="sub_send" value="Send" />
 %# ALWAYS save a copy (FCC) to "sent-mail" folder.

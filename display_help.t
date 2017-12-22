@@ -84,18 +84,3 @@ To save the attachment select the link
 containing the attachment name and use your  browser's "Save" feature to
 navigate to where you wish to put the attachment on your local machine.
 </p>
-
-<h2>Persistent Marks</h2>
-
-<p>If you have <i>Manage -&gt; Preferences -&gt; General -&gt; Use
-persistent marks</i> set then there will be an extra option, <i>Mark</i> in
-the bars above and below the message.</p>
-
-<p><i>Mark</i> marks the message so that you can take an action on it later.
-The next message is then displayed.  If you have marked the final message
-in the folder you are returned to the mail folder list.  The icon in
-the mail folder list screen changes to show the message has been marked.
-If you return to displaying a marked message before you have taken any
-action on it the option on this screen is changed to <i>Unmark</i>. 
-</p>
-

@@ -33,8 +33,7 @@ These are described at the bottom of this page.</p>
       When you select this button the full address is substituted for 
       the alias. 
       If the alias does not exist in your address book then the
-      default domain (typically @cam.ac.uk, depending on your setting 
-      in <i>Manage -&gt; Preferences -&gt; Extra Compose</i>) will be
+      default domain will be
       added instead.
       The status line will change to reflect the result of 
       the action, for example after <i>Expand</i>-ing the <i>To:</i>
@@ -71,21 +70,4 @@ These are described at the bottom of this page.</p>
       you to the Email page you came from.</li>
   </ul>
 </li>
-</ul>
-
-<p>Other aspects, such as the size of the text area for the body part,
-the use of a personal name, and whether a signature is included or not,
-depend on choices made under <i>Manage -&gt; Preferences -&gt; Compose</i> and
-<i>Manage -&gt; Preferences -&gt; Extra Compose</i>.</p>
-
-<p>If you have enabled  <i>Manage -&gt; Preferences -&gt; Extra Compose -&gt;
-Enable manual line wrap options</i> then there will be two extra options
-on the line below the message body part:</p>
-
-<ul>
-<li><i>Line Wrap</i> - wraps the message to a line length defined in
- <i>Manage -&gt; Preferences -&gt; Extra Compose -&gt; Line Wrap at
-</i>.  The default is 76 characters. </li>
-<li><i>Line Wrap on Send</i> -  wraps the text of the 
-       message as part of the action of sending the message.</li>
 </ul>

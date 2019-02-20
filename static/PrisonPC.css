@@ -10,8 +10,10 @@
     background: url(PrisonPC-background.jpg) bottom right repeat-y;
     /* The "bottom right" above is the bottom right of the CONTENT, not the view window.
        As a workaround, make the content fit to the view window. */
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* UPDATE: that made scrollbars behave oddly for tall pages.  This doesn't. —twb, Feb 2019 */
+    background-attachment: fixed;
 }
 
 

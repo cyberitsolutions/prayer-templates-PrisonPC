@@ -6,10 +6,10 @@ Uploaders:
  Trent W. Buck <twb@cyber.com.au>,
  Trent W. Buck <trentbuck@gmail.com>
 Build-Depends:
- debhelper (>= 10),
+ debhelper-compat (= 12),
  librsvg2-bin,
  prayer-templates-dev
-Standards-Version: 3.9.6
+Standards-Version: 4.3.0
 
 Package: prayer-templates-prisonpc
 Architecture: any

@@ -1,3 +1,11 @@
+prayer-templates-prisonpc (0.3~bpo10) buster; urgency=medium
+
+  * Target Debian 10 (not Debian 8).
+  * Upgrade to prayer-templates-src 1.3.5-dfsg1-6 (was 1.3.4-dfsg1-1).
+    Only one line actually changed.
+
+ -- Trent W. Buck <trentbuck@gmail.com>  Wed, 26 Feb 2020 16:02:00 +1100
+
 prayer-templates-prisonpc (0.2jessie2) jessie; urgency=medium
 
   * Drop "Check Spelling" [#32352]

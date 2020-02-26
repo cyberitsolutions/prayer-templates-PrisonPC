@@ -5,7 +5,7 @@
 <li>If you wish to upload the folder keeping the name it had on your 
 local machine and creating a new mail folder on <% $g_service_name |h %> 
 select <i>Create</i></li>
-<li>If you wish to add the folder to the end of an exisiting mail
+<li>If you wish to add the folder to the end of an existing mail
 folder, change the name to that of the mail folder on <% $g_service_name |h %>
 and then select <i>Append</i></li>
 <li>To cancel the upload select <i>Cancel</i></li>

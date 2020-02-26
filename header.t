@@ -11,6 +11,7 @@
 % ENDIF
 <meta name="robots" content="none" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="referrer" content="no-referrer" />
 <link rel="stylesheet" href="/static/layout.css"
       type="text/css" media="all" />
 <link rel="stylesheet" href="/static/print.css"

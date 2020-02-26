@@ -9,3 +9,11 @@ override_dh_auto_build:
 override_dh_auto_clean:
 	dh_auto_build
 	cd icons && ./Clean
+
+
+# Turn on hardening
+# Ref. https://lintian.debian.org/tags/hardening-no-bindnow.html
+# Ref. https://wiki.debian.org/Hardening
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk

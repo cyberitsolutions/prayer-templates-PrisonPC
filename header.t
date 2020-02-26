@@ -11,6 +11,7 @@
 % ENDIF
 <meta name="robots" content="none" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="referrer" content="no-referrer" />
 <link rel="stylesheet" href="/static/PrisonPC.css"
       type="text/css" media="all" />
 <link rel="icon" type="image/png"  href="/icons/msg-seen.png" />

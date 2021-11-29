@@ -1,3 +1,11 @@
+prayer-templates-prisonpc (11.1) bullseye; urgency=medium
+
+  * Target Debian 11 (not Debian 10).
+  * Upgrade to prayer-templates-src 1.3.5-dfsg1-8 (was 1.3.5-dfsg1-6).
+    No changes.
+
+ -- Trent W. Buck <trentbuck@gmail.com>  Mon, 29 Nov 2021 11:20:38 +1100
+
 prayer-templates-prisonpc (0.3~bpo10) buster; urgency=medium
 
   * Target Debian 10 (not Debian 8).

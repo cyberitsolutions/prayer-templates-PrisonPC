@@ -1,3 +1,9 @@
+prayer-templates-prisonpc (12.2) bookworm; urgency=medium
+
+  * Bump for Debian 12.  No changes yet.
+
+ -- Trent W. Buck <trentbuck@gmail.com>  Thu, 20 Jul 2023 13:25:47 +1000
+
 prayer-templates-prisonpc (11.1) bullseye; urgency=medium
 
   * Target Debian 11 (not Debian 10).

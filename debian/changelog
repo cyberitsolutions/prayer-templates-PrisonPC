@@ -1,3 +1,9 @@
+prayer-templates-prisonpc (12.3) bookworm; urgency=medium
+
+  * Include a minimal build script in debian/.
+
+ -- Trent W. Buck <trentbuck@gmail.com>  Thu, 03 Oct 2024 12:40:31 +1000
+
 prayer-templates-prisonpc (12.2) bookworm; urgency=medium
 
   * Bump for Debian 12.  No changes yet.
